@@ -310,8 +310,7 @@ function ensureDragHandle(keyboardRoot) {
     if (getComputedStyle(host).position === 'static') {
         host.style.position = 'relative';
     }
-    handle.style.position = 'absolute';
-    handle.style.top = '0';
+    handle.style.position = 'relative';
     handle.style.left = '0';
     handle.style.right = '0';
     host.prepend(handle);

@@ -442,7 +442,7 @@ const styles = (theme) => ({
         borderRadius: 6,
         "&.Mui-expanded": {
             minHeight: 44,
-            backgroundColor: "#eef4fa",
+            backgroundColor: "rgba(30, 41, 59, 0.95)",
             borderRadius: "6px 6px 0 0",
         },
         "& .MuiAccordionSummary-content": {
@@ -450,8 +450,8 @@ const styles = (theme) => ({
         },
     },
     accordionDetails: {
-        backgroundColor: "#eef4fa",
-        borderTop: "1px solid #a3c5de",
+        backgroundColor: "rgba(30, 41, 59, 0.95)",
+        borderTop: "1px solid #4a6b85",
         borderRadius: "0 0 6px 6px",
         paddingTop: theme.spacing(1.5),
         paddingBottom: theme.spacing(1.5),
