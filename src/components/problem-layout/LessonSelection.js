@@ -512,8 +512,8 @@ class LessonSelection extends React.Component {
                                         <h2>{translate('lessonSelection.select')} {translate('lessonSelection.course')}</h2>
                                       </>
                                     : <>
-                                        <h1>{this.coursePlans.find((c) => c.courseCode === courseCode)?.courseName}</h1>
-                                        <h2>{this.coursePlans.find((c) => c.courseCode === courseCode)?.courseOER?.split('<')[0]?.trim() || ''}</h2>
+                                        <h1>{courseCode.toUpperCase()}</h1>
+                                        <h2>{this.coursePlans.find((c) => c.courseCode === courseCode)?.courseName}</h2>
                                       </>
                                 }
                                 {this.isPrivileged

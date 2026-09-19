@@ -1333,8 +1333,6 @@ class Platform extends React.Component {
                         <span style={{ fontSize: 18, marginRight: 2 }}>‹</span> Home
                       </Button>
                       )}
-
-                      <div style={{ fontWeight: 600, color: "#e2e8f0" }}> {this.state.selectedCourse.courseName} </div>
                     </div>
                   ) : findLessonById(this.props.lessonID) ? (
                     <div
