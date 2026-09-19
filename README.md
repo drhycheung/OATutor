@@ -55,7 +55,7 @@ npx serve -s build
 
 The `deploy-production.yml` GitHub Action builds and deploys on every push to `main`. The static bundle is served from the `gh-pages` branch.
 
-1. Ensure `homepage` in `package.json` is set to `https://drhycheung.github.io/OATutor`.
+1. Set `homepage` in `package.json` to your Pages URL, e.g. `https://<your-username>.github.io/<repo-name>`.
 2. Push to `main` — the action builds and pushes to `gh-pages` automatically.
 3. In **Settings → Pages**, set source to the `gh-pages` branch, root directory.
 
