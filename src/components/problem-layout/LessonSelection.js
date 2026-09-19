@@ -14,6 +14,7 @@ import { IS_STAGING_OR_DEVELOPMENT } from "../../util/getBuildType";
 import BuildTimeIndicator from "@components/BuildTimeIndicator";
 import withTranslation from "../../util/withTranslation.js";
 import MenuBookIcon from '@material-ui/icons/MenuBook';
+import AssessmentIcon from '@material-ui/icons/Assessment';
 import { LocalizationConsumer } from '../../util/LocalizationContext';
 import { withResponsive } from '../../util/ResponsiveContext';
 
@@ -81,7 +82,7 @@ class LessonSelection extends React.Component {
                             <center>
                                 {this.isPrivileged
                                     ? <h1>{translate('lessonSelection.welcomeInstructor')}</h1>
-                                    : <h1>{translate('lessonSelection.welcomeTo')} {SITE_NAME.replace(/\s/, "")}!</h1>
+                                    : <h1>{translate('lessonSelection.welcomeTo')} {SITE_NAME}!</h1>
                                 }
 
                                 <h2>{translate('lessonSelection.select')} {selectionMode === "course" ? translate('lessonSelection.course') : translate('lessonSelection.lessonplan')}</h2>
@@ -94,6 +95,21 @@ class LessonSelection extends React.Component {
                             </center>
                             <Divider/>
                             <Spacer/>
+                            {selectionMode === "lesson" && (
+                                <Box textAlign="center" mt={1} mb={2}>
+                                    <Button
+                                        className={classes.button}
+                                        variant="contained"
+                                        color="primary"
+                                        size="small"
+                                        style={{ minWidth: "12em" }}
+                                        onClick={() => this.props.history.push("/progress")}
+                                    >
+                                        <AssessmentIcon style={{ marginRight: 6 }} fontSize="small" />
+                                        My Progress
+                                    </Button>
+                                </Box>
+                            )}
                             <Grid container spacing={3}>
                                 {selectionMode === "course"
                                     ? this.coursePlans
@@ -242,7 +258,7 @@ class LessonSelection extends React.Component {
                                                                                 textAlign: "center",
                                                                             }}
                                                                         >
-                                                                            <h3 style={{ margin: 0, color: "#5F6368" }}>Meta lesson</h3>
+                                                                            <h3 style={{ margin: 0, color: "#94a3b8" }}>Meta lesson</h3>
                                                                         </div>
 
                                                                         <Button
@@ -282,9 +298,9 @@ class LessonSelection extends React.Component {
                                 <Button className={classes.button} size="small"
                                         style={{ 
                                             width: "100%", 
-                                            color: "#3F7091",
+                                            color: "#7EB6E0",
                                             backgroundColor: "transparent",
-                                            border: "1px solid #4F86A8",
+                                            border: "1px solid #5b93c9",
                                             boxShadow: "none"
                                         }} 
                                     onClick={this.removeProgress}
@@ -292,9 +308,9 @@ class LessonSelection extends React.Component {
                                 <Button className={classes.button} size="small"
                                     style={{ 
                                         width: "100%", 
-                                        color: "#3F7091",
+                                        color: "#7EB6E0",
                                         backgroundColor: "transparent",
-                                        border: "1px solid #4F86A8",
+                                        border: "1px solid #5b93c9",
                                         boxShadow: "none"
                                     }} 
                                     onClick={this.prepareRemoveProgress}

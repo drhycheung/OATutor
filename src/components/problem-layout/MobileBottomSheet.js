@@ -12,9 +12,9 @@ const SHEET_MS = 280;
 const CLOSE_DRAG_PX = 110;
 
 const BADGE_COLORS = {
-    border: '#a3c5de',
-    bg: '#ffffff',
-    color: '#3f7091',
+    border: '#4a6b85',
+    bg: '#1e2c42',
+    color: '#7EB6E0',
 };
 
 /**
@@ -183,12 +183,12 @@ export default function MobileBottomSheet({
                     bottom: 0,
                     height,
                     zIndex: MOBILE_SHEET_Z,
-                    backgroundColor: '#ffffff',
+                    backgroundColor: 'rgba(30, 41, 59, 0.95)',
                     borderRadius: '20px 20px 0 0',
                     display: 'flex',
                     flexDirection: 'column',
                     boxShadow: isVisible
-                        ? '0 -10px 40px rgba(16, 24, 40, 0.16)'
+                        ? '0 -10px 40px rgba(0, 0, 0, 0.4)'
                         : 'none',
                     overflow: 'hidden',
                     fontFamily:
@@ -296,7 +296,7 @@ export default function MobileBottomSheet({
                         flex: 1,
                         overflowY: 'auto',
                         padding: showHeader ? '12px 16px' : 0,
-                        backgroundColor: '#ffffff',
+                        backgroundColor: 'rgba(30, 41, 59, 0.95)',
                         display: 'flex',
                         flexDirection: 'column',
                         minHeight: 0,

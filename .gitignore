@@ -36,6 +36,8 @@ src/config/firebaseConfig.js
 **/.vscode
 **/.idea
 **/.Rhistory
+.playwright-mcp/
+COURSE-INFO/
 pnpm-lock.yaml
 serviceAccountKey.json
 export.py

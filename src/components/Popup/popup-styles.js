@@ -1,8 +1,8 @@
 export const popupStyles = {
     popupContent: {
-        background: '#FFF',
+        background: '#1e293b',
         padding: '0px 30px 30px 30px',
-        borderRadius: '8px',
+        borderRadius: '16px',
         position: 'absolute',
         top: '50%', 
         left: '50%',
@@ -31,8 +31,8 @@ export const popupStyles = {
         cursor: 'pointer',
     },
     iconButton: {
-        backgroundColor: '#E5E5E5', 
-        color: '#4F4F4F', 
+        backgroundColor: '#334155', 
+        color: '#e2e8f0', 
         borderRadius: '50%', 
         padding: '0.5px', 
         fontSize: 24

@@ -37,6 +37,7 @@ import GlobalErrorBoundary from "./components/GlobalErrorBoundary";
 import { IS_STAGING_OR_DEVELOPMENT } from "./util/getBuildType";
 import TabFocusTrackerWrapper from "./components/TabFocusTrackerWrapper";
 import ViewAllProblems from "./components/problem-layout/ViewAllProblems";
+import MyProgress from "./components/problem-layout/MyProgress";
 import { ResponsiveProvider } from "./util/ResponsiveContext";
 
 // ### BEGIN CUSTOMIZABLE IMPORTS ###
@@ -340,6 +341,11 @@ class App extends React.Component {
                                                 {...props}
                                             />
                                         )}
+                                    />
+                                    <Route
+                                      exact
+                                      path="/progress"
+                                      component={MyProgress}
                                     />
                                     <Route
                                       exact

@@ -39,14 +39,14 @@ const SHOW_COPYRIGHT = false;
  * feedback, user interactions, and site logs.
  * @type {boolean}
  */
-const ENABLE_FIREBASE = true;
+const ENABLE_FIREBASE = false;
 
 /**
  * If ENABLE_FIREBASE, indicates whether the site should use Firebase to store, process, and analyze general user
  * interactions.
  * @type {boolean}
  */
-const DO_LOG_DATA = true;
+const DO_LOG_DATA = false;
 
 /**
  * Indicates whether a log event should be fired everytime a user leaves or returns to this window.

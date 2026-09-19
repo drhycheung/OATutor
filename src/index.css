@@ -1,6 +1,12 @@
-html, body, #root {
+html,
+body,
+#root {
     max-width: 100%;
     overflow-x: hidden;
+}
+
+html {
+    background: #0e1729;
 }
 
 body {
@@ -8,9 +14,18 @@ body {
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(160deg, #0e1729 0%, #1e293b 48%, #0e1729 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: #e2e8f0;
+    font-family: 'Inter', 'Titillium Web', system-ui, -apple-system, sans-serif;
 }
 
-html, body, #root, .Router, .Router > * {
+html,
+body,
+#root,
+.Router,
+.Router > * {
     min-height: 100vh;
 }
 
@@ -23,7 +38,7 @@ footer {
 *::before,
 *::after {
     box-sizing: border-box;
-    font-family: 'Titillium Web', 'sans-serif';
+    font-family: 'Inter', 'Titillium Web', 'sans-serif';
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,6 +50,24 @@ footer {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgba(51, 65, 85, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(148, 163, 184, 0.45);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(148, 163, 184, 0.7);
 }
 
 .revealable {
@@ -50,7 +83,7 @@ blockquote {
     position: relative;
     margin: -0.4em 1em 1.4em;
     padding: 0.6em 0.8em 0.6em 1em;
-    color: rgb(100, 100, 100);
+    color: rgb(203, 213, 225);
 }
 
 blockquote:before {
@@ -62,7 +95,7 @@ blockquote:before {
     content: "";
     width: 4px;
     border-radius: 8px;
-    background: rgb(180, 184, 188);
+    background: rgb(100, 116, 139);
 }
 
 .Toastify__toast-container--top-right {

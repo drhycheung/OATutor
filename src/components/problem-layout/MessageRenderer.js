@@ -107,7 +107,7 @@ const MessageRenderer = ({ content }) => {
                 code: ({ inline, children }) => (
                     inline ? (
                         <code style={{
-                            backgroundColor: '#f5f5f5',
+                            backgroundColor: 'rgba(30, 41, 59, 0.85)',
                             padding: '2px 6px',
                             borderRadius: 3,
                             fontFamily: 'monospace'
@@ -116,7 +116,7 @@ const MessageRenderer = ({ content }) => {
                         </code>
                     ) : (
                         <pre style={{
-                            backgroundColor: '#f5f5f5',
+                            backgroundColor: 'rgba(30, 41, 59, 0.85)',
                             padding: '12px',
                             borderRadius: 6,
                             overflow: 'auto',

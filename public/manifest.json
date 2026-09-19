@@ -1,10 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "EdUHK Adaptive Tutor",
+  "name": "EdUHK Adaptive Tutor",
   "icons": [
     {
       "src": "favicon.png",
-      "sizes": "512x512 64x64 32x32 24x24 16x16",
+      "sizes": "192x73",
       "type": "image/x-icon"
     }
   ],

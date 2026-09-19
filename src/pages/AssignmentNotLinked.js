@@ -8,7 +8,7 @@ import { SITE_NAME } from "../config/config";
 
 const AssignmentNotLinked = () => {
     return <>
-        <div style={{ backgroundColor: "#F6F6F6", paddingBottom: 20 }}>
+        <div style={{ backgroundColor: "#0f172a", paddingBottom: 20 }}>
             <AppBar position="static">
                 <Toolbar>
                     <Grid container spacing={0} role={"navigation"}>

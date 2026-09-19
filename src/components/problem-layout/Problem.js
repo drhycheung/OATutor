@@ -1272,10 +1272,10 @@ class Problem extends React.Component {
             hintPromoEligible && !hideHintPromoDueToOverlap;
         const showHintCardChrome = isHintPortalOpen || hintPromoVisible;
 
-        const hintThemePrimaryDark = "#3f7091";
-        const hintThemeSurface = "#eef4fa";
-        const hintThemePale = "#a3c5de";
-        const hintThemeAccent = "#EF9F27";
+        const hintThemePrimaryDark = "#7EB6E0";
+        const hintThemeSurface = "#1e2c42";
+        const hintThemePale = "#4a6b85";
+        const hintThemeAccent = "#f5b04a";
         const hintThemeAccentSoft = "#FAEEDA";
         const hintThemeAccentHover = "#F5DBA7";
         const hintThemeAccentIcon = "#854F0B";
@@ -1319,15 +1319,15 @@ class Problem extends React.Component {
 
         const cardStyle = {
             background: isHintPortalOpen ? hintThemeSurface : PAGE_BG,
-            color: "#222",
-            border: showHintCardChrome ? `1px solid #4c7d9f` : "none",
+            color: "#e2e8f0",
+            border: showHintCardChrome ? `1px solid #4a6b85` : "none",
             padding: isHintPortalOpen
                 ? "8px 10px"
                 : hintPromoVisible
                     ? "14px 10px 6px"
                     : 0,
             borderRadius: 8,
-            boxShadow: isHintPortalOpen ? "0 4px 16px rgba(76, 125, 159, 0.14)" : "none",
+            boxShadow: isHintPortalOpen ? "0 4px 16px rgba(0, 0, 0, 0.4)" : "none",
             position: "relative",
             width: "100%",
             maxHeight: isHintPortalOpen ? 340 : "none",
@@ -1412,7 +1412,7 @@ class Problem extends React.Component {
                                             padding: "2px 7px",
                                             borderRadius: 9999,
                                             border: `1px solid ${hintThemePale}`,
-                                            backgroundColor: "#ffffff",
+                                            backgroundColor: "#1e2c42",
                                             color: hintThemePrimaryDark,
                                             fontSize: 11,
                                             fontWeight: 600,

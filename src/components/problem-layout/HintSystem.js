@@ -416,11 +416,11 @@ const styles = (theme) => ({
     heading: {
         fontSize: theme.typography.pxToRem(15),
         fontWeight: 600,
-        color: "#3f7091",
+        color: "#7EB6E0",
     },
     accordion: {
-        backgroundColor: "#ffffff",
-        border: "1px solid #a3c5de",
+        backgroundColor: "rgba(30, 41, 59, 0.85)",
+        border: "1px solid #4a6b85",
         borderRadius: 6,
         marginBottom: 6,
         boxShadow: "none",
@@ -429,8 +429,8 @@ const styles = (theme) => ({
             display: "none",
         },
         "&.Mui-disabled": {
-            backgroundColor: "#f5f8fb",
-            borderColor: "#d4e3ef",
+            backgroundColor: "rgba(30, 41, 59, 0.55)",
+            borderColor: "#334961",
         },
     },
     accordionExpanded: {
@@ -438,7 +438,7 @@ const styles = (theme) => ({
     },
     accordionSummary: {
         minHeight: 44,
-        backgroundColor: "#ffffff",
+        backgroundColor: "rgba(30, 41, 59, 0.85)",
         borderRadius: 6,
         "&.Mui-expanded": {
             minHeight: 44,

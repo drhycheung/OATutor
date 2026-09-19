@@ -1,5 +1,5 @@
 const SESSION_SYSTEM = "SEMESTER"
-const SITE_NAME = "OATutor"
+const SITE_NAME = "EdUHK Adaptive Tutor"
 const CONTENT_SOURCE = "oatutor"
 
 module.exports = {

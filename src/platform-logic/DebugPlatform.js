@@ -182,7 +182,7 @@ class DebugPlatform extends React.Component {
 
     render() {
         return (
-            <div style={{ backgroundColor: "#F6F6F6", paddingBottom: 20 }}>
+            <div style={{ backgroundColor: "#0f172a", paddingBottom: 20 }}>
                 <AppBar position="static">
                     <Toolbar>
                         <Grid container spacing={0} role={"navigation"}>

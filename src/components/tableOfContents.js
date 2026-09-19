@@ -22,9 +22,9 @@ const useStyles = makeStyles(() => ({
     },
   },
   lessonCard: {
-    backgroundColor: "#ffffff",
+    backgroundColor: "rgba(30, 41, 59, 0.85)",
     padding: "16px",
-    borderLeft: "4px solid #EBEFF2",
+    borderLeft: "4px solid rgba(71, 85, 105, 0.55)",
     listStyle: "none",
     display: "flex",
     alignItems: "center",
@@ -356,12 +356,12 @@ const TableOfContents = ({
                   height: 62,
                   borderTop:
                     expanded === groupTitle || index === 0
-                      ? "1px solid #E5E7EB"
+                      ? "1px solid rgba(148, 163, 184, 0.18)"
                       : "none",
                   borderBottom:
                     expanded === groupTitle ||
                     index === Object.entries(groupedLessons).length - 1
-                      ? "1px solid #E5E7EB"
+                      ? "1px solid rgba(148, 163, 184, 0.18)"
                       : "none",
                   margin: 0,
                 }}
@@ -378,7 +378,7 @@ const TableOfContents = ({
                   paddingLeft: 16,
                   paddingTop: 0,
                   paddingBottom: 0,
-                  borderBottom: "1px solid #E5E7EB",
+                  borderBottom: "1px solid rgba(148, 163, 184, 0.18)",
                 }}
               >
                 {lessons.map((lesson, i) => {
@@ -395,10 +395,10 @@ const TableOfContents = ({
                         marginLeft: "24px",
                         marginRight: isSelected ? "-16px" : "24px",
                         cursor: "pointer",
-                        backgroundColor: isSelected ? "#E9F4FB" : "#ffffff",
-                        borderLeft: isSelected ? "4px solid #4C7D9F" : "4px solid #EBEFF2",
+                        backgroundColor: isSelected ? "rgba(59, 130, 246, 0.16)" : "rgba(30, 41, 59, 0.85)",
+                        borderLeft: isSelected ? "4px solid #3b82f6" : "4px solid rgba(71, 85, 105, 0.55)",
                         fontWeight: isSelected ? 600 : 400,
-                        color: isSelected ? "#4C7D9F" : "#4A4E58",
+                        color: isSelected ? "#93c5fd" : "#cbd5e1",
                       }}
                     >
                       <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>

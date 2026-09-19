@@ -179,7 +179,7 @@ const ViewAllProblems = ({ translate, history }) => {
     <Box className={classes.root}>
 
 
-      <AppBar position="static" style = {{backgroundColor: '#FFFFFF'}}>
+      <AppBar position="static" style = {{backgroundColor: 'rgba(15, 23, 42, 0.9)'}}>
         <Toolbar>
           <Grid 
             container 
@@ -197,7 +197,7 @@ const ViewAllProblems = ({ translate, history }) => {
                         justifyContent: "flex-end",
                         alignItems: "center", 
                         gap: "9px",
-                        color: "#344054",
+                        color: "#cbd5e1",
                     }}
                 >
                     <img src={userIcon} alt="User Icon" />

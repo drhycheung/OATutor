@@ -960,8 +960,8 @@ class Platform extends React.Component {
     return (
       <div
         style={{
-          backgroundColor: "#FFFFFF",
-          border: "1px solid #EBEFF2",
+          backgroundColor: "rgba(30, 41, 59, 0.85)",
+          border: "1px solid rgba(71, 85, 105, 0.55)",
           borderRadius: 8,
           padding: "12px 16px",
           marginBottom: 16,
@@ -978,8 +978,8 @@ class Platform extends React.Component {
             const label = lesson?.name || lesson?.topics || (lesson ? lesson.id : null) || "Unavailable lesson";
             const isCompleted = this.completedMetaLessonLessons.has(lessonId);
             const isCurrent = index === currentIndex;
-            const borderColor = isCurrent ? "#0B9B8A" : isCompleted ? "#0B9B8A" : "#EBEFF2";
-            const backgroundColor = isCurrent ? "#F0FAF8" : "#FFFFFF";
+            const borderColor = isCurrent ? "#2DD4BF" : isCompleted ? "#2DD4BF" : "rgba(71, 85, 105, 0.5)";
+            const backgroundColor = isCurrent ? "rgba(16, 185, 129, 0.18)" : "rgba(30, 41, 59, 0.9)";
             const opacity = isCompleted && !isCurrent ? 0.75 : 1;
 
             return (
@@ -1235,14 +1235,14 @@ class Platform extends React.Component {
 
         <div
           style={{
-            backgroundColor: "#F6F6F6",
+            backgroundColor: "#0f172a",
             paddingBottom: 20,
             display: "flex",
             flexDirection: "column",
           }}
         >
           {/* Top bar */}
-          <AppBar position="fixed" style={{ backgroundColor: "#FFFFFF" }}>
+          <AppBar position="fixed" style={{ backgroundColor: "rgba(15, 23, 42, 0.9)" }}>
             <Toolbar className={isMobile ? classes.mobileCompactToolbar : undefined}>
               {isMobile ? (
                 <div style={{ display: "flex", alignItems: "center", width: "100%", gap: 4, minWidth: 0 }}>
@@ -1293,7 +1293,7 @@ class Platform extends React.Component {
                         justifyContent: "flex-end",
                         alignItems: "center",
                         gap: "9px",
-                        color: "#344054",
+                        color: "#cbd5e1",
                       }}
                     >
                       <img src={userIcon} alt="User Icon" />
@@ -1392,7 +1392,7 @@ class Platform extends React.Component {
           >
             {this.state.status === "learning" ? (
               <AppBar position="sticky"
-                      style={{ top: progressStickyTop, backgroundColor: "#F6F6F6", boxShadow: "none", zIndex: 3 }}>
+                      style={{ top: progressStickyTop, backgroundColor: "rgba(15, 23, 42, 0.9)", boxShadow: "none", zIndex: 3 }}>
                 <Toolbar disableGutters style={{ minHeight: isMobile ? 64 : 80, paddingLeft: isMobile ? 8 : 16, paddingRight: isMobile ? 8 : 32 }}>
                   <Grid container spacing={0} role="progress-bar" alignItems="center" style={{ width: "100%" }}>
                     {showToc && !this.state.drawerOpen && !isMobile && (
@@ -1430,7 +1430,7 @@ class Platform extends React.Component {
                               height={20}
                               style={{ display: "block" }}
                             />
-                            <span style={{ fontFamily: "Inter, sans-serif", fontSize: 16, fontWeight: 500, color: "#000" }}>
+                            <span style={{ fontFamily: "Inter, sans-serif", fontSize: 16, fontWeight: 500, color: "#e2e8f0" }}>
                               {isCompletionMode
                                 ? `Lesson Completion: ${barPercent}%`
                                 : `Lesson Mastery: ${barPercent}%`}
@@ -1549,7 +1549,7 @@ class Platform extends React.Component {
                                   position: "relative",
                                   width: "100%",
                                   height: 30,
-                                  backgroundColor: "#C9D3D8",
+                                  backgroundColor: "rgba(148, 163, 184, 0.25)",
                                   borderRadius: 24,
                                   padding: "2px",
                                   overflow: "hidden",
@@ -1561,7 +1561,7 @@ class Platform extends React.Component {
                                   style={{
                                     width: `${barPercent}%`,
                                     height: "100%",
-                                    backgroundColor: "#FFFFFF",
+                                    backgroundColor: "#2DD4BF",
                                     borderRadius: 24,
                                     transition: "width 0.4s ease",
                                   }}

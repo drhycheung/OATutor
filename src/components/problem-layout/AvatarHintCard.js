@@ -10,12 +10,12 @@ import { ReactComponent as RightIcon } from '../../assets/right.svg';
 
 const styles = () => ({
     card: {
-        backgroundColor: '#ffffff',
-        border: '1px solid rgba(163, 197, 222, 0.75)',
+        backgroundColor: 'rgba(30, 41, 59, 0.85)',
+        border: '1px solid rgba(74, 107, 133, 0.75)',
         borderRadius: 12,
-        boxShadow: '0 4px 14px rgba(31, 41, 51, 0.08)',
+        boxShadow: '0 4px 14px rgba(0, 0, 0, 0.35)',
         padding: '16px 18px',
-        color: '#1f2933',
+        color: '#e2e8f0',
     },
     header: {
         display: 'flex',

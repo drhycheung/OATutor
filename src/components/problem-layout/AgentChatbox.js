@@ -40,11 +40,11 @@ import {
 import { chooseVariables, variabilize } from '../../platform-logic/variabilize.js';
 
 const CHAT_THEME = {
-    primary: '#4c7d9f',
-    primaryDark: '#3f7091',
-    accent: '#ffc300',
-    pale: '#a3c5de',
-    surface: '#eef4fa',
+    primary: '#5b93c9',
+    primaryDark: '#7EB6E0',
+    accent: '#ffc930',
+    pale: '#4a6b85',
+    surface: '#1e2c42',
 };
 
 const VISION_IMAGE_MIME_TYPES = new Set([
@@ -155,8 +155,8 @@ const styles = (theme) => ({
         color: 'white'
     },
     assistantBubble: {
-        backgroundColor: 'white',
-        color: '#333'
+        backgroundColor: 'rgba(51, 65, 85, 0.9)',
+        color: '#e2e8f0'
     },
     assistantContent: {
         width: '100%',
@@ -195,7 +195,7 @@ const styles = (theme) => ({
     },
     suggestionChip: {
         border: `1px solid ${CHAT_THEME.pale}`,
-        backgroundColor: '#f7fbfe',
+        backgroundColor: '#1e2c42',
         color: CHAT_THEME.primaryDark,
         borderRadius: 999,
         padding: '7px 11px',
@@ -351,7 +351,7 @@ const styles = (theme) => ({
         padding: '2px 7px',
         borderRadius: 9999,
         border: `1px solid ${CHAT_THEME.pale}`,
-        backgroundColor: '#ffffff',
+        backgroundColor: '#1e2c42',
         color: CHAT_THEME.primaryDark,
         fontSize: 11,
         fontWeight: 600,

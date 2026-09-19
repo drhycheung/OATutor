@@ -85,7 +85,7 @@ const Posts = () => {
     };
 
     return <>
-        <div style={{ backgroundColor: "#F6F6F6", paddingBottom: 50 }}>
+        <div style={{ backgroundColor: "#0f172a", paddingBottom: 50 }}>
             <AppBar position="static">
                 <Toolbar>
                     <Grid container justifyContent={"space-between"} spacing={0} role={"navigation"} alignItems={"center"}>
