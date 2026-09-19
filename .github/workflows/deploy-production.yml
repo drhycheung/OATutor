@@ -46,8 +46,18 @@ jobs:
 
       - name: Deploy to gh-pages
         run: |
+          REPO_URL="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
           cd $RUNNER_TEMP
-          git clone --branch gh-pages https://github.com/${{ github.repository }} gh-build || mkdir -p gh-build && cd gh-build && git init
+          if git clone --branch gh-pages "$REPO_URL" gh-build 2>/dev/null; then
+            echo "Cloned existing gh-pages branch"
+          else
+            echo "gh-pages branch does not exist yet — creating fresh repo"
+            mkdir -p gh-build
+            cd gh-build
+            git init
+            git checkout -b gh-pages
+            cd ..
+          fi
           cd gh-build
           git config --local user.email "${{ env.git_email }}"
           git config --local user.name "${{ env.git_name }}"
@@ -57,4 +67,4 @@ jobs:
           git add .
           git diff --cached --quiet --exit-code && echo "no changes, exiting early" && exit 0
           git commit -m "deploy: ${{ github.sha }}"
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} gh-pages
+          git push "$REPO_URL" gh-pages

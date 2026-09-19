@@ -1536,7 +1536,7 @@ class Problem extends React.Component {
 
                                 <div
                                     style = {{
-                                        backgroundColor: "#EBF4FA",
+                                        backgroundColor: "rgba(30,41,59,0.85)",
                                         padding: 20
                                     }}
                                 >
