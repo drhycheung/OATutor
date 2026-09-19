@@ -511,10 +511,7 @@ class LessonSelection extends React.Component {
                                         <h1>{translate('lessonSelection.welcomeTo')} {SITE_NAME}!</h1>
                                         <h2>{translate('lessonSelection.select')} {translate('lessonSelection.course')}</h2>
                                       </>
-                                    : <>
-                                        <h1>{courseCode.toUpperCase()}</h1>
-                                        <h2>{this.coursePlans.find((c) => c.courseCode === courseCode)?.courseName}</h2>
-                                      </>
+                                    : <h1>{this.coursePlans.find((c) => c.courseCode === courseCode)?.courseName}</h1>
                                 }
                                 {this.isPrivileged
                                     && <h4>(for {this.user.resource_link_title})</h4>
