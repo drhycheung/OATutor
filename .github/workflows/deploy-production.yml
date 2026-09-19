@@ -18,8 +18,8 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Initialise content submodule (HTTPS, public repo)
-        run: git submodule update --init --recursive
+      - name: Initialise content submodule (HTTPS, psy2032-only branch)
+        run: git submodule update --init --remote --recursive
 
       - name: Save original git author and git email
         run: |
