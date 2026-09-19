@@ -1321,16 +1321,20 @@ class Platform extends React.Component {
                         display: "flex",
                         justifyContent: "flex-start",
                         alignItems: "center",
-                        gap: "8xpx",
+                        gap: "8px",
                       }}
                     >
                       {!this.isFromCanvas && (
-                      <IconButton onClick={this.handleHierarchyBack} aria-label="Back" style={{ padding: 2 }}>
-                        <img src={leftArrow} alt="Back Arrow" />
-                      </IconButton>
+                      <Button
+                        onClick={this.handleHierarchyBack}
+                        aria-label="Back to Home"
+                        style={{ textTransform: "none", color: "#cbd5e1", fontWeight: 600, padding: "4px 8px" }}
+                      >
+                        <span style={{ fontSize: 18, marginRight: 2 }}>‹</span> Home
+                      </Button>
                       )}
 
-                      <div style={{ fontWeight: 600 }}> {this.state.selectedCourse.courseName} </div>
+                      <div style={{ fontWeight: 600, color: "#e2e8f0" }}> {this.state.selectedCourse.courseName} </div>
                     </div>
                   ) : findLessonById(this.props.lessonID) ? (
                     <div
@@ -1342,12 +1346,16 @@ class Platform extends React.Component {
                       }}
                     >
                       {!this.isFromCanvas && (
-                      <IconButton onClick={this.handleHierarchyBack} aria-label="Back" style={{ padding: 2 }}>
-                        <img src={leftArrow} alt="Back Arrow" />
-                      </IconButton>
+                      <Button
+                        onClick={this.handleHierarchyBack}
+                        aria-label="Back to Home"
+                        style={{ textTransform: "none", color: "#cbd5e1", fontWeight: 600, padding: "4px 8px" }}
+                      >
+                        <span style={{ fontSize: 18, marginRight: 2 }}>‹</span> Home
+                      </Button>
                       )}
 
-                      <div style={{ fontWeight: 600 }}> {findLessonById(this.props.lessonID).courseName} </div>
+                      <div style={{ fontWeight: 600, color: "#e2e8f0" }}> {findLessonById(this.props.lessonID).courseName} </div>
                     </div>
                   ) : (
                     ""
