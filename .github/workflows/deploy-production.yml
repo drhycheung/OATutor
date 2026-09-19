@@ -16,12 +16,8 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Add SSH private keys for submodule repositories
-        uses: webfactory/ssh-agent@v0.7.0
-        with:
-          ssh-private-key: |
-            ${{ secrets.OATUTOR_CONTENT_DEPLOY_KEY }}
-      - run: git submodule update --init --recursive
+      - name: Initialise content submodule (HTTPS, public repo)
+        run: git submodule update --init --recursive
 
       - name: Save original git author and git email
         run: |
@@ -30,7 +26,7 @@ jobs:
       - uses: actions/setup-node@v2.4.1
 
       - name: Change homepage in package.json
-        run: sed -i 's/place-holder/OATutor-DevFeature-Fork/g' package.json
+        run: sed -i 's|https://CAHLR.github.io/OATutor|https://drhycheung.github.io/OATutor|g' package.json
 
       - name: Cache node modules
         uses: actions/cache@v3
@@ -85,5 +81,5 @@ jobs:
           git config --local user.email "${{ env.git_email }}"
           git config --local user.name "${{ env.git_name }}"
           git diff --cached --quiet --exit-code && echo "no changes to platform, exiting early" && exit 0
-          git commit -m "deploy commit: CAHLR/OATutor@$GITHUB_SHA"
+          git commit -m "deploy commit: drhycheung/OATutor@$GITHUB_SHA"
           git push
