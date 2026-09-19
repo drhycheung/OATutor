@@ -1,0 +1,452 @@
+[
+  {
+    "courseName": "PSY2032 Statistical Methods in Psychology I",
+    "language": "en",
+    "courseOER": "https://openstax.org/details/books/introductory-statistics <OpenStax: Introductory Statistics>",
+    "courseLicense": "https://creativecommons.org/licenses/by/4.0/ <CC BY 4.0>",
+    "lessons": [
+      {
+        "id": "7NKfEH4G-gBhL-Vi0suW8Q1e",
+        "name": "1.1 Key Terms in Statistics",
+        "topics": "1. Types of Variables",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "key_terms": 0.85
+        }
+      },
+      {
+        "id": "5DvLvv7h-Ugyq-t9cbx3CZJq",
+        "name": "1.2 Quantitative vs Qualitative Data",
+        "topics": "1. Types of Variables",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "quantitative_and_qualitative_data": 0.85
+        }
+      },
+      {
+        "id": "73M4L4FJ-FZoe-TNAuvNPQeO",
+        "name": "1.3 Sampling Methods",
+        "topics": "1. Types of Variables",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "sampling": 0.85
+        }
+      },
+      {
+        "id": "15t3j7hH-ri0Z-ki5m8fsXXR",
+        "name": "2.1 Data Displays: Bar, Stem-and-Leaf, Line Graphs",
+        "topics": "2. Descriptive Statistics",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "and_bar_graphs": 0.85,
+          "bar_graphs": 0.85,
+          "identifying_concentrations_and_outliers": 0.85,
+          "line_graphs": 0.85,
+          "stem_and_leaf_graphs": 0.85,
+          "stem_and_leaf_graphs_(stemplots)": 0.85
+        }
+      },
+      {
+        "id": "1zWyFqAu-NbnA-RthwMYbaGE",
+        "name": "2.2 Histograms & Frequency",
+        "topics": "2. Descriptive Statistics",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "frequency": 0.85,
+          "histograms": 0.85
+        }
+      },
+      {
+        "id": "5OuU0RNp-qOuS-Z4LH8fuGRO",
+        "name": "2.3 Box Plots, Quartiles & Percentiles",
+        "topics": "2. Descriptive Statistics",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "box_plot": 0.85,
+          "interquartile_range": 0.85,
+          "median": 0.85,
+          "percentages_of_data": 0.85,
+          "percentiles": 0.85,
+          "quartiles": 0.85
+        }
+      },
+      {
+        "id": "2lCp8xev-HPWn-ZIPuDOP6Ao",
+        "name": "2.4 Box Plots & Outliers",
+        "topics": "2. Descriptive Statistics",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "box_plots": 0.85,
+          "interquartile_range": 0.85,
+          "outliers": 0.85,
+          "quartiles": 0.85
+        }
+      },
+      {
+        "id": "1dxY68iX-dkZU-35Nb6BBCSv",
+        "name": "2.5 Measures of Centre from Frequency Tables",
+        "topics": "2. Descriptive Statistics",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "calculating_the_mean_of_grouped_frequency_tables": 0.85,
+          "centers_of_data": 0.85,
+          "frequency_tables": 0.85,
+          "mode": 0.85,
+          "understanding_unimodal_and_bimodal": 0.85
+        }
+      },
+      {
+        "id": "3mcsdv2k-2fLn-HBCuhEKunU",
+        "name": "2.6 Mean, Median, Mode & Skewness",
+        "topics": "2. Descriptive Statistics",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "distribution": 0.85,
+          "mean": 0.85,
+          "mean_median_and_mode": 0.85,
+          "median": 0.85,
+          "skewness": 0.85
+        }
+      },
+      {
+        "id": "20R382sJ-kpob-QtLlCufkuw",
+        "name": "2.7 Measures of Spread & Standard Deviation",
+        "topics": "2. Descriptive Statistics",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "frequency": 0.85,
+          "mean": 0.85,
+          "median": 0.85,
+          "proportions": 0.85,
+          "standard_deviation": 0.85
+        }
+      },
+      {
+        "id": "4oAvmgeF-j4og-dqc9Rfcvpr",
+        "name": "3.1 Probability & Terminology",
+        "topics": "3. Probability and Normal Distribution",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "probability": 0.85,
+          "terminology": 0.85
+        }
+      },
+      {
+        "id": "2HasRNAS-pcRX-HZzg3kC02s",
+        "name": "3.2 Independent & Mutually Exclusive Events",
+        "topics": "3. Probability and Normal Distribution",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "independent_events": 0.85,
+          "mutually_exclusive_events": 0.85
+        }
+      },
+      {
+        "id": "5DUi1qV6-6Ykh-vIBOVeBPEX",
+        "name": "3.3 Probability Rules (Addition, Conditional, Multiplication)",
+        "topics": "3. Probability and Normal Distribution",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "addition_rule": 0.85,
+          "complement_rule": 0.85,
+          "conditional_probability": 0.85,
+          "multiplication_rule": 0.85,
+          "probability": 0.85,
+          "the_addition_rule": 0.85,
+          "the_multiplication_rule": 0.85
+        }
+      },
+      {
+        "id": "0o8DH72R-jpDU-WQRwnGRmrB",
+        "name": "3.4 Contingency Tables",
+        "topics": "3. Probability and Normal Distribution",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "https://openstax.org/books/introductory_statistics/pages/3_4_contingency_tables": 0.85
+        }
+      },
+      {
+        "id": "7EdDnKi6-rbPF-2pQqUwLqT9",
+        "name": "3.5 Tree & Venn Diagrams",
+        "topics": "3. Probability and Normal Distribution",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "tree_diagrams": 0.85,
+          "venn_diagram": 0.85
+        }
+      },
+      {
+        "id": "78KPqmpT-yHhs-iv957LO3mh",
+        "name": "3.6 z-Scores",
+        "topics": "3. Probability and Normal Distribution",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "z_scores": 0.85
+        }
+      },
+      {
+        "id": "49TslEUK-tmZx-WeXboKOKsE",
+        "name": "3.7 Calculating Probabilities",
+        "topics": "3. Probability and Normal Distribution",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "calculations_of_probabilities": 0.85
+        }
+      },
+      {
+        "id": "1NdVd6qx-saQd-os5wsiVu1P",
+        "name": "4.1 Standard Error & the CLT for Sample Means",
+        "topics": "4. Population and Sampling Distributions",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "standard_error": 0.85,
+          "the_central_limit_theorem_for_sample_means": 0.85
+        }
+      },
+      {
+        "id": "0NNIvalg-JFKm-lhKRrpmN2z",
+        "name": "4.2 The CLT for Sums",
+        "topics": "4. Population and Sampling Distributions",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "the_central_limit_theorem_for_sums": 0.85
+        }
+      },
+      {
+        "id": "3mkEzsXW-BkR4-YiWMdp1uhZ",
+        "name": "4.3 The CLT for the Mean and Sum",
+        "topics": "4. Population and Sampling Distributions",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "central_limit_theorem_for_the_mean_and_sum": 0.85
+        }
+      },
+      {
+        "id": "6WZdOG7V-QThZ-6IRlzPQEP8",
+        "name": "5.1 Null & Alternative Hypotheses",
+        "topics": "5. One-Sample t Test & Sample Size",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "null_and_alternative_hypotheses": 0.85
+        }
+      },
+      {
+        "id": "4i3XhOlV-YZU2-bCn5QZsWW9",
+        "name": "5.2 Outcome & Type I / Type II Errors",
+        "topics": "5. One-Sample t Test & Sample Size",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "outcomes_and_the_type_i_and_type_ii_errors": 0.85
+        }
+      },
+      {
+        "id": "7bnFS9ZA-1cHx-J4eZPRLUxT",
+        "name": "5.3 Hypothesis Test Decision & Conclusion",
+        "topics": "5. One-Sample t Test & Sample Size",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "hypothesis_testing_decision_and_conclusion": 0.85,
+          "hypothesis_testing_distributions": 0.85
+        }
+      },
+      {
+        "id": "1TQJbSTx-UrM7-YiUOVssgry",
+        "name": "5.4 Full Hypothesis Test (One- & Two-Tailed)",
+        "topics": "5. One-Sample t Test & Sample Size",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "and_two_tailed_test": 0.85,
+          "full_hypothesis_test": 0.85,
+          "full_hypothesis_test_examples": 0.85,
+          "left_": 0.85,
+          "right_": 0.85
+        }
+      },
+      {
+        "id": "4fttL0MF-wVf8-P4OGQMnmvg",
+        "name": "5.5 Hypothesis Testing of a Single Mean",
+        "topics": "5. One-Sample t Test & Sample Size",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "hypothesis_testing_of_a_single_mean_and_single_proportion": 0.85,
+          "identifying_null_and_alternative_hypothesises_and_sample_mean": 0.85
+        }
+      },
+      {
+        "id": "07JjjRdp-Yznx-59Wn7T3QvE",
+        "name": "5.6 Confidence Intervals & the t Distribution",
+        "topics": "5. One-Sample t Test & Sample Size",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "confidence_intervals_and_student's_t_distribution": 0.85
+        }
+      },
+      {
+        "id": "7NlXrAUs-3hO5-iI9VrsOOqR",
+        "name": "5.7 Calculating the Sample Size",
+        "topics": "5. One-Sample t Test & Sample Size",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "calculating_the_sample_size_n": 0.85,
+          "population_proportion": 0.85,
+          "“plus_four”_confidence_interval_for_p": 0.85
+        }
+      },
+      {
+        "id": "3VBcHTBt-Q6mx-aXEne3stm0",
+        "name": "6.1 Two Population Means (Unknown SD)",
+        "topics": "6. Two-Sample t Test",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "": 0.85,
+          "degrees_of_freedom": 0.85,
+          "two_population_means_with_unknown_standard_deviations": 0.85
+        }
+      },
+      {
+        "id": "6v5aaEC5-ge3f-dXZqMIrFTO",
+        "name": "6.2 Two Population Means (Known SD)",
+        "topics": "6. Two-Sample t Test",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "two_population_means_with_known_standard_deviations": 0.85
+        }
+      },
+      {
+        "id": "44otcBhI-tFV2-fifYuOUzxb",
+        "name": "6.3 Two Population Proportions",
+        "topics": "6. Two-Sample t Test",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "comparing_two_independent_population_proportions": 0.85
+        }
+      },
+      {
+        "id": "21uKw37U-CoPA-amZmb2BwOo",
+        "name": "6.4 Matched or Paired Samples",
+        "topics": "6. Two-Sample t Test",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "matched_or_paired_samples": 0.85
+        }
+      },
+      {
+        "id": "1aFRu2Jd-gzX1-BQMJ7MapG4",
+        "name": "7.1 Linear Equations, Slope & Intercept",
+        "topics": "7. Correlation and Simple Linear Regression",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "linear_equations": 0.85,
+          "slope": 0.85,
+          "y_intercept": 0.85
+        }
+      },
+      {
+        "id": "3sBfRB8D-LPMo-mkdOeAtQgx",
+        "name": "7.2 Scatter Plots & the Regression Equation",
+        "topics": "7. Correlation and Simple Linear Regression",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "scatter_plots": 0.85,
+          "slope": 0.85,
+          "the_coefficient_of_determination": 0.85,
+          "the_correlation_coefficient_r": 0.85,
+          "the_regression_equation": 0.85
+        }
+      },
+      {
+        "id": "1HzSbVAz-jRGW-T5Hoiq5yor",
+        "name": "7.3 Testing the Correlation Coefficient",
+        "topics": "7. Correlation and Simple Linear Regression",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "testing_the_significance_of_the_correlation_coefficient": 0.85
+        }
+      },
+      {
+        "id": "78uZq69K-ex94-OoMMxTKaNv",
+        "name": "8.1 The Chi-Square Distribution",
+        "topics": "8. Chi-Square Tests for Nominal Data",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "facts_about_the_chi_square_distribution": 0.85
+        }
+      },
+      {
+        "id": "78VVmHX9-2L42-FnbAG3TmXC",
+        "name": "8.2 Goodness-of-Fit Test",
+        "topics": "8. Chi-Square Tests for Nominal Data",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "goodness_of_fit_test": 0.85
+        }
+      },
+      {
+        "id": "1tucCfso-t4dS-uzd7N0lAyJ",
+        "name": "8.3 Test of Independence",
+        "topics": "8. Chi-Square Tests for Nominal Data",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "test_of_independence": 0.85
+        }
+      },
+      {
+        "id": "1BltxB8h-D0Ia-7BOXisC9yz",
+        "name": "8.4 Test for Homogeneity",
+        "topics": "8. Chi-Square Tests for Nominal Data",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "test_for_homogeneity": 0.85
+        }
+      },
+      {
+        "id": "7jbv7FoM-jmBQ-jrDfX2PFHo",
+        "name": "8.5 Choosing Among Chi-Square Tests",
+        "topics": "8. Chi-Square Tests for Nominal Data",
+        "allowRecycle": true,
+        "giveHintOnIncorrect": true,
+        "learningObjectives": {
+          "different_types_of_the_chi_square_tests": 0.85
+        }
+      }
+    ]
+  }
+]

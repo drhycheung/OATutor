@@ -1,0 +1,134 @@
+[
+    {
+        "id": "aea0f93trigmodel4a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the key parameters (A, D) from the data.",
+        "text": "Recall that the midline D is the average of the maximum and minimum values, and the amplitude A is half the difference between the maximum and minimum values.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aea0f93trigmodel4a-s1",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$55.8$$"
+        ],
+        "dependencies": [
+            "aea0f93trigmodel4a-h1"
+        ],
+        "title": "What is the midline (D) of the data, rounded to the nearest tenth?",
+        "text": "Use the average of the maximum and minimum: $$D=\\frac{69+42.5}{2}$$. $$Round$$ $$to$$ $$the$$ $$nearest$$ $$tenth$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aea0f93trigmodel4a-s2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$13.3$$"
+        ],
+        "dependencies": [
+            "aea0f93trigmodel4a-h1"
+        ],
+        "title": "What is the amplitude (A) of the data, rounded to the nearest tenth?",
+        "text": "Use half the difference between the maximum and minimum: $$A=\\frac{69-42.5}{2}$$. $$Round$$ $$to$$ $$the$$ $$nearest$$ $$tenth$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aea0f93trigmodel4a-h2",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Determine the period and B value.",
+        "text": "One full cycle is $$12$$ months. For $$y=A\\sin(Bt-C)+D$$, $$P=\\frac{2\\pi}{B}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aea0f93trigmodel4a-s3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$12$$"
+        ],
+        "dependencies": [
+            "aea0f93trigmodel4a-h2"
+        ],
+        "title": "What is the period of the data?",
+        "text": "The data covers $$12$$ months for one full cycle.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aea0f93trigmodel4a-s4",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$\\frac{\\pi}{6}$$"
+        ],
+        "dependencies": [
+            "aea0f93trigmodel4a-h2"
+        ],
+        "title": "Use the period to find B.",
+        "text": "Using $$P=12$$, $$calculate$$ $$B=\\frac{2\\pi}{P}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aea0f93trigmodel4a-h3",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Determine the phase shift (C).",
+        "text": "For $$y=A\\sin(B(t-t_0))+D$$, $$the$$ $$graph$$ $$crosses$$ $$the$$ $$midline$$ $$going$$ $$upward$$ $$at$$ $$t=t_0$$, $$and$$ $$C=Bt_0$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aea0f93trigmodel4a-s5",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$4$$"
+        ],
+        "dependencies": [
+            "aea0f93trigmodel4a-h3"
+        ],
+        "title": "Identify the upward midline-crossing time $$t_0$$.",
+        "text": "January corresponds to $$t=1$$ and is modeled as the minimum. The upward midline crossing occurs one-fourth of a 12-month period later, at $$t=4$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aea0f93trigmodel4a-s6",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$\\frac{2\\pi}{3}$$"
+        ],
+        "dependencies": [
+            "aea0f93trigmodel4a-h3"
+        ],
+        "title": "Use the phase-shift time to find C in $$y=A\\sin(Bt-C)+D$$.",
+        "text": "With $$B=\\frac{\\pi}{6}$$ and $$t_0=4$$, $$calculate$$ $$C=Bt_0$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

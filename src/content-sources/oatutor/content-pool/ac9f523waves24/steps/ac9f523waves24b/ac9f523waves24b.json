@@ -1,0 +1,12 @@
+{
+    "id": "ac9f523waves24b",
+    "stepAnswer": [
+        "$$4.44$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the wavelength of the standing wave on the cable (in $$\\text{m}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$4.44$$"
+}

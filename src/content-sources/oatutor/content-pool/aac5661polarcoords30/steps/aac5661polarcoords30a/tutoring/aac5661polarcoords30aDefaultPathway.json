@@ -1,0 +1,24 @@
+[
+    {
+        "id": "aac5661polarcoords30a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Solve Intersection Equation",
+        "text": "Square r1 and set $${r1}^2={r2}^2$$: $$2=2sin\\left(2\\theta\\right)$$, so $$sin\\left(2\\theta\\right)=1$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aac5661polarcoords30a-h2",
+        "type": "hint",
+        "dependencies": [
+            "aac5661polarcoords30a-h1"
+        ],
+        "title": "Use Unit Circle",
+        "text": "$$sin\\left(2\\theta\\right)=1$$ at $$theta=\\frac{\\pi}{4}$$ and $$theta=\\frac{5\\pi}{4}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

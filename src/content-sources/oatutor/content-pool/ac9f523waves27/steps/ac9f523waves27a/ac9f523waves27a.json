@@ -1,0 +1,12 @@
+{
+    "id": "ac9f523waves27a",
+    "stepAnswer": [
+        "$$134$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the wave speed of the standing wave (in $$\\tfrac{\\text{m}}{\\text{s}}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$134$$"
+}

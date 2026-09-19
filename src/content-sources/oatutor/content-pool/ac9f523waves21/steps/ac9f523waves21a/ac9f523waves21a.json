@@ -1,0 +1,12 @@
+{
+    "id": "ac9f523waves21a",
+    "stepAnswer": [
+        "$$1.9$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the height of the resultant wave at a time $$t=2.00\\, \\text{s}$$ and a position $$x=0.53\\, \\text{m}$$ (in $$\\text{cm}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$1.9$$"
+}

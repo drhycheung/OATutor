@@ -1,0 +1,36 @@
+[
+    {
+        "id": "af4dc22Lawcos26a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Picture",
+        "text": "First try to draw a triangle given the description and see which sides and angles are given to us. Keep in mind that we travel $$90$$ minutes so we need to calculate the exact distances that are traveled.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "af4dc22Lawcos26a-h2",
+        "type": "hint",
+        "dependencies": [
+            "af4dc22Lawcos26a-h1"
+        ],
+        "title": "Law of Cosines",
+        "text": "The angle between due west and $$25$$ degrees north of west is $$25$$ degrees. Use $$c^2=a^2+b^2-2a b cos\\left(25\\right)$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "af4dc22Lawcos26a-h3",
+        "type": "hint",
+        "dependencies": [
+            "af4dc22Lawcos26a-h2"
+        ],
+        "title": "Side",
+        "text": "Which side length are we solving for?",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector13b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Negative $$x$$, positive $$y$$",
+        "text": "$$F_{x}<0$$ means westward; $$F_{y}>0$$ means northward. A vector pointing west-and-north lies in the second quadrant of the $$x_{y}$$-plane.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

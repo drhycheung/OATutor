@@ -1,0 +1,18 @@
+{
+    "id": "a106ef7vector15b",
+    "stepAnswer": [
+        "$$x_{2}$$=-1.900 $$m$$, $$y_{2}$$=3.291 $$m$$"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Convert $$P_{2}$$ to Cartesian coordinates",
+    "stepBody": "What are the Cartesian coordinates of $$P_2$$?",
+    "answerType": "string",
+    "variabilization": {},
+    "answerLatex": "$$x_{2}$$=-1.900 $$m$$, $$y_{2}$$=3.291 $$m$$",
+    "choices": [
+        "$$x_{2}$$=-1.900 $$m$$, $$y_{2}$$=3.291 $$m$$",
+        "$$x_{2}$$=3.291 $$m$$, $$y_{2}$$=-1.900 $$m$$",
+        "$$x_{2}$$=1.900 $$m$$, $$y_{2}$$=3.291 $$m$$",
+        "$$x_{2}$$=-3.291 $$m$$, $$y_{2}$$=1.900 $$m$$"
+    ]
+}

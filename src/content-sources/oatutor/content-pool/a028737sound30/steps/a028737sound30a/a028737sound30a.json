@@ -1,0 +1,12 @@
+{
+    "id": "a028737sound30a",
+    "stepAnswer": [
+        "$$9310$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the altitude of the plane (in $$\\text{m}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$9310$$"
+}

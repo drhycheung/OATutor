@@ -1,0 +1,99 @@
+[
+    {
+        "id": "a662caelawsin11b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Law of Sines",
+        "text": "Recall the Law of Sines: $$\\frac{a}sin^$\\left(\\alpha\\righ=\\frac{b}sin^$\\left(\\beta\\righ=\\frac{c}sin^$\\left(\\gamma\\righ$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin11b-s1",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "$$\\frac{a}sin^$\\left(\\alpha\\righ=\\frac{c}sin^$\\left(\\gamma\\righ$$"
+        ],
+        "dependencies": [
+            "a662caelawsin11b-h1"
+        ],
+        "title": "Choose appropriate Law of Sines ratio",
+        "text": "Which part of the Law of Sines should you use to find $$a$$?",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "$$\\frac{a}sin^$\\left(\\alpha\\righ=\\frac{c}sin^$\\left(\\gamma\\righ$$",
+            "$$\\frac{a}sin^$\\left(\\gamma\\righ=\\frac{c}sin^$\\left(\\alpha\\righ$$",
+            "$$\\frac{a}sin^$\\left(\\alpha\\righ=\\frac{b}sin^$\\left(\\beta\\righ$$",
+            "$$\\fracsin^a\\left(\\alpha\\right)}=\\fracsin^c\\left(\\gamma\\right)}$$"
+        ]
+    },
+    {
+        "id": "a662caelawsin11b-h2",
+        "type": "hint",
+        "dependencies": [
+            "a662caelawsin11b-h1"
+        ],
+        "title": "Substitute known values",
+        "text": "Substitute the known values into the Law of Sines.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin11b-s2",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "$$\\frac{a}sin^$\\left(35\\righ=\\frac{20}sin^$\\left(73\\righ$$"
+        ],
+        "dependencies": [
+            "a662caelawsin11b-h2"
+        ],
+        "title": "Equation with known values",
+        "text": "What is the equation after substituting the known values?",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "$$\\frac{a}sin^$\\left(35\\righ=\\frac{20}sin^$\\left(73\\righ$$",
+            "$$\\frac{a}sin^$\\left(73\\righ=\\frac{20}sin^$\\left(35\\righ$$",
+            "$$\\frac{a}cos^$\\left(35\\righ=\\frac{20}cos^$\\left(73\\righ$$",
+            "$$\\fracsin^a\\left(35\\right)}=\\fracsin^20\\left(73\\right)}$$"
+        ]
+    },
+    {
+        "id": "a662caelawsin11b-h3",
+        "type": "hint",
+        "dependencies": [
+            "a662caelawsin11b-h2"
+        ],
+        "title": "Solve for a",
+        "text": "Isolate $$a$$ and calculate its value, rounding to the nearest tenth.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin11b-s3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$12.0$$"
+        ],
+        "dependencies": [
+            "a662caelawsin11b-h3"
+        ],
+        "title": "Calculate a",
+        "text": "What is the value of $$a$$?",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

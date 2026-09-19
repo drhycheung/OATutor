@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5cpe5c-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Compare Values",
+        "text": "Compare the two potential energies you found in the previous steps.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cpe5c-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cpe5c-h1"
+        ],
+        "title": "Mass and Height Trade Off",
+        "text": "A larger mass can outweigh a smaller height, so compare the products rather than the heights alone.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

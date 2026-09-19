@@ -1,0 +1,12 @@
+{
+    "id": "ac9f523waves5d",
+    "stepAnswer": [
+        "$$3$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "Find the wave speed (in $$\\tfrac{\\text{m}}{\\text{s}}\\$\\$)$$.",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$3$$"
+}

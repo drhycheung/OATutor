@@ -1,0 +1,12 @@
+{
+    "id": "ac9f523waves26g",
+    "stepAnswer": [
+        "$$1.5$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the wavelength of the fourth mode (in $$\\text{m}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$1.5$$"
+}

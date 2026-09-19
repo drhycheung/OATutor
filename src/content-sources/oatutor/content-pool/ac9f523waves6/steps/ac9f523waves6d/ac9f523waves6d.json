@@ -1,0 +1,12 @@
+{
+    "id": "ac9f523waves6d",
+    "stepAnswer": [
+        "$$0.25$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the period (in $$\\text{s}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$0.25$$"
+}

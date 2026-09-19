@@ -1,0 +1,24 @@
+[
+    {
+        "id": "aac5661polarcoords23a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Solve for cos(\u03b8)",
+        "text": "Set $$r1=r2$$: $$6-4cos\\left(\\theta\\right)=4$$, so $$cos(theta)=\\frac{1}{2}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aac5661polarcoords23a-h2",
+        "type": "hint",
+        "dependencies": [
+            "aac5661polarcoords23a-h1"
+        ],
+        "title": "Use Unit Circle",
+        "text": "$$cos(theta)=\\frac{1}{2}$$ at $$theta=\\frac{\\pi}{3}$$ and $$theta=\\frac{-\\pi}{3}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

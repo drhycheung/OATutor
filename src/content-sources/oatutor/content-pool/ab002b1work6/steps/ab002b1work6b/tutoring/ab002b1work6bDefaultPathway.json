@@ -1,0 +1,24 @@
+[
+    {
+        "id": "ab002b1work6b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Formula",
+        "text": "$$f_{k}=\\mu_{k}N$$. $$On$$ $$a$$ $$level$$ $$surface$$ $$with$$ $$no$$ $$vertical$$ $$force$$ $$besides$$ $$weight$$, $$N=mg$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "ab002b1work6b-h2",
+        "type": "hint",
+        "dependencies": [
+            "ab002b1work6b-h1"
+        ],
+        "title": "Find the Normal Force First",
+        "text": "Find the normal force from the crate's weight first, then scale it by $$\\mu_{k}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "aac5661polarcoords21a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use General Form",
+        "text": "Equations of the form $$r=a cos\\left(n \\theta\\right)$$ or $$r=a sin\\left(n \\theta\\right)$$ are rose curves.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aac5661polarcoords21a-h2",
+        "type": "hint",
+        "dependencies": [
+            "aac5661polarcoords21a-h1"
+        ],
+        "title": "Check for symmetry",
+        "text": "Because $$n=2$$ is even, the rose curve has $$2n=4$$ petals.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

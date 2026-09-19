@@ -1,0 +1,24 @@
+[
+    {
+        "id": "aac5661polarcoords10a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Use Trig Identity",
+        "text": "For origin symmetry, replace theta with $$\\theta+\\pi$$ and simplify $$sin\\left(2\\left(\\theta+\\pi\\right)\\right)$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aac5661polarcoords10a-h2",
+        "type": "hint",
+        "dependencies": [
+            "aac5661polarcoords10a-h1"
+        ],
+        "title": "Check for Valid Output",
+        "text": "Because $$sin\\left(2\\theta+2\\pi\\right)=sin\\left(2\\theta\\right)$$, the equation is unchanged wherever the square root is real.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5cce4b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Energy Conservation",
+        "text": "All the spring's PE converts to gravitational PE at max height: $$U_{s}=mgh$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cce4b-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cce4b-h1"
+        ],
+        "title": "Solve for $$h$$",
+        "text": "$$h=U_{s}/(mg)$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

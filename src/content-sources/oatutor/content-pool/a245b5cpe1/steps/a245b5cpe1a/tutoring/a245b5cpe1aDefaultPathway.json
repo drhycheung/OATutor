@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5cpe1a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Formula",
+        "text": "$$ \\cup =mgh$$, $$with$$ $$h$$ measured from the reference.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cpe1a-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cpe1a-h1"
+        ],
+        "title": "Where the Height Is Measured From",
+        "text": "$$h$$ is the height above the floor, since the floor is the stated reference.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

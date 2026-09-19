@@ -1,0 +1,48 @@
+[
+    {
+        "id": "a245b5cnc1a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Initial KE",
+        "text": "$$KE_{i}=\\tfrac{1}{2}mv**{2}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cnc1a-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cnc1a-h1"
+        ],
+        "title": "Friction Force",
+        "text": "$$f=\\mu_{k}mg$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cnc1a-h3",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cnc1a-h2"
+        ],
+        "title": "Energy Balance",
+        "text": "Friction does negative work equal to $$-KE_{i}$$, $$so$$ $$fd=KE_{i}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cnc1a-h4",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cnc1a-h3"
+        ],
+        "title": "Solve for $$d$$",
+        "text": "$$d=KE_{i}/f$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5ccons2a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Test Path Dependence",
+        "text": "Longer paths give more friction work (always negative). So work depends on the path.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5ccons2a-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5ccons2a-h1"
+        ],
+        "title": "Path Dependence Means Non-Conservative",
+        "text": "A force whose work depends on the path is non-conservative, and friction dissipates mechanical energy as heat.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

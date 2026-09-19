@@ -1,0 +1,12 @@
+[
+    {
+        "id": "acd9137measure18a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Break it into steps",
+        "text": "$$1\\,\\text{km}=10**{3}\\,\\text{m}$$, $$and$$ $$1\\,\\text{m}=10**{2}\\,\\text{cm}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

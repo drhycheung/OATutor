@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector17c-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "West of north lies in Q2",
+        "text": "West of north means start from north $$+y$$ and rotate toward west $$(-x)$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

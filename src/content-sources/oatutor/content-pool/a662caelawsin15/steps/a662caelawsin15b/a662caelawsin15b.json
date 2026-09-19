@@ -1,0 +1,12 @@
+{
+    "id": "a662caelawsin15b",
+    "stepAnswer": [
+        "$$3.8$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "Find side $$b$$.",
+    "stepBody": "$$A=37$$ $$degrees, B=49$$ $$degrees, C=94$$ $$degrees, c=5$$",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$3.8$$"
+}

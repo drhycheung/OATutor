@@ -1,0 +1,36 @@
+[
+    {
+        "id": "ab002b1work4a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Formula",
+        "text": "Friction opposes motion, so the angle between $$f$$ and $$d$$ is $$180**\\circ$$. $$Thus$$ $$W=-fd$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "ab002b1work4a-h2",
+        "type": "hint",
+        "dependencies": [
+            "ab002b1work4a-h1"
+        ],
+        "title": "Why the Sign Is Negative",
+        "text": "$$f$$ is the friction force and $$d$$ is the distance slid. The minus sign comes from the two pointing opposite ways.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "ab002b1work4a-h3",
+        "type": "hint",
+        "dependencies": [
+            "ab002b1work4a-h2"
+        ],
+        "title": "Interpret the Sign",
+        "text": "The negative sign means friction removes energy from the block.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

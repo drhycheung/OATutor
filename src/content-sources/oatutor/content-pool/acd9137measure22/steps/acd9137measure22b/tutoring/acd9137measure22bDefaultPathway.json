@@ -1,0 +1,12 @@
+[
+    {
+        "id": "acd9137measure22b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert to grams",
+        "text": "$$1$$ kg=$$10**{3}$$ g, so 1.93*$$10**{13}$$ kg=1.93*$$10**{13}$$*$$10**{3}$$ g=1.93*$$10**{16}$$ g.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

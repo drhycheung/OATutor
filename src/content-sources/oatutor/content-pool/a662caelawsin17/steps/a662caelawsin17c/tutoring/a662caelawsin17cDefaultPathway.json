@@ -1,0 +1,47 @@
+[
+    {
+        "id": "a662caelawsin17c-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Law of Sines",
+        "text": "Use the Law of Sines: $$\\frac{a}sin^$\\left(A\\righ=\\frac{b}sin^$\\left(B\\righ$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin17c-s1",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "$$\\frac{a}sin^$\\left(A\\righ=\\frac{b}sin^$\\left(B\\righ$$"
+        ],
+        "dependencies": [
+            "a662caelawsin17c-h1"
+        ],
+        "title": "Set up the proportion for a",
+        "text": "Which ratio involving a uses the known side $$b$$?",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "$$\\frac{a}sin^$\\left(A\\righ=\\frac{b}sin^$\\left(B\\righ$$",
+            "$$\\frac{a}sin^$\\left(B\\righ=\\frac{b}sin^$\\left(A\\righ$$",
+            "$$\\frac{a}{A}=\\frac{b}{B}$$",
+            "$$\\frac{a}sin^$\\left(C\\righ=\\frac{b}sin^$\\left(B\\righ$$"
+        ]
+    },
+    {
+        "id": "a662caelawsin17c-h2",
+        "type": "hint",
+        "dependencies": [
+            "a662caelawsin17c-h1"
+        ],
+        "title": "Substitute known values",
+        "text": "Substitute $$A=122$$ degrees, $$B=37$$ degrees, and $$b=23$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

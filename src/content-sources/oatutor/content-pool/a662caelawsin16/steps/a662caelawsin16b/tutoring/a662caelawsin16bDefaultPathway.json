@@ -1,0 +1,70 @@
+[
+    {
+        "id": "a662caelawsin16b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Law of Sines",
+        "text": "Use the Law of Sines: $$\\frac{a}sin^$\\left(A\\righ=\\frac{b}sin^$\\left(B\\righ=\\frac{c}sin^$\\left(C\\righ$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin16b-s1",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "10,132 degrees,25 degrees"
+        ],
+        "dependencies": [
+            "a662caelawsin16b-h1"
+        ],
+        "title": "Identify known values",
+        "text": "What are the values of $$b$$, A, and B?",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "10,132 degrees,25 degrees",
+            "10,25 degrees,132 degrees",
+            "10,23 degrees,25 degrees",
+            "$$17.6, 132$$ degrees,25 degrees"
+        ]
+    },
+    {
+        "id": "a662caelawsin16b-h2",
+        "type": "hint",
+        "dependencies": [
+            "a662caelawsin16b-h1"
+        ],
+        "title": "Set up the proportion",
+        "text": "Which ratio uses unknown side a and known side $$b$$?",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin16b-s2",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "$$\\frac{a}sin^$\\left(132\\righ=\\frac{10}sin^$\\left(25\\righ$$"
+        ],
+        "dependencies": [
+            "a662caelawsin16b-h2"
+        ],
+        "title": "Law of Sines equation",
+        "text": "Choose the Law of Sines equation for a.",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "$$\\frac{a}sin^$\\left(132\\righ=\\frac{10}sin^$\\left(25\\righ$$",
+            "$$\\frac{a}sin^$\\left(25\\righ=\\frac{10}sin^$\\left(132\\righ$$",
+            "$$\\frac{a}sin^$\\left(132\\righ=\\fracsin^10\\left(25\\right)}$$",
+            "$$\\frac{a}{10}=\\fracsin^s\\left(132\\right)sin^$eft(25\\righ$$"
+        ]
+    }
+]

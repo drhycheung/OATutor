@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5cce6a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Energy Conservation",
+        "text": "$$mgh=\\tfrac{1}{2}mv**{2}$$. $$Mass$$ $$cancels$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cce6a-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cce6a-h1"
+        ],
+        "title": "Solve for $$v$$",
+        "text": "$$v=\\sqrt{2gh}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

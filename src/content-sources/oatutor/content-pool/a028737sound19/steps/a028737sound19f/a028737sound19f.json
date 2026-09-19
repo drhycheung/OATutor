@@ -1,0 +1,12 @@
+{
+    "id": "a028737sound19f",
+    "stepAnswer": [
+        "$$172$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the frequency of the third mode (in $$\\text{Hz}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$172$$"
+}

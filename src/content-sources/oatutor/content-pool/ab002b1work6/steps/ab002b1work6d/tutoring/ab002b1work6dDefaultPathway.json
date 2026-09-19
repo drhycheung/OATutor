@@ -1,0 +1,12 @@
+[
+    {
+        "id": "ab002b1work6d-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Sum All Works",
+        "text": "Normal force and gravity do no work (perpendicular to motion). So $$W_{\\text{net}}=W_{\\text{applied}}+W_{\\text{friction}}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

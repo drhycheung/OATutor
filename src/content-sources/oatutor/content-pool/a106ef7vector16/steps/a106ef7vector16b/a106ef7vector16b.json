@@ -1,0 +1,18 @@
+{
+    "id": "a106ef7vector16b",
+    "stepAnswer": [
+        "$$-\\vec{v}=-(4.0\\, \\tfrac{\\text{km}}{\\text{hr}})\\hat{i}-(3.0\\, \\tfrac{\\text{km}}{\\text{hr}})\\hat{j}-(0.1\\, \\tfrac{\\text{km}}{\\text{hr}})\\hat{k}$$"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Express the retreat velocity vector",
+    "stepBody": "What is the retreat velocity $$-\\vec{v}$$?",
+    "answerType": "string",
+    "variabilization": {},
+    "answerLatex": "$$-\\vec{v}=-(4.0\\, \\tfrac{\\text{km}}{\\text{hr}})\\hat{i}-(3.0\\, \\tfrac{\\text{km}}{\\text{hr}})\\hat{j}-(0.1\\, \\tfrac{\\text{km}}{\\text{hr}})\\hat{k}$$",
+    "choices": [
+        "$$-\\vec{v}=-(4.0\\, \\tfrac{\\text{km}}{\\text{hr}})\\hat{i}-(3.0\\, \\tfrac{\\text{km}}{\\text{hr}})\\hat{j}-(0.1\\, \\tfrac{\\text{km}}{\\text{hr}})\\hat{k}$$",
+        "$$-\\vec{v}=-(4.0\\,\\tfrac{\\text{km}}{\\text{hr}})\\hat{i}+(3.0\\,\\tfrac{\\text{km}}{\\text{hr}})\\hat{j}-(0.1\\,\\tfrac{\\text{km}}{\\text{hr}})\\hat{k}$$",
+        "$$-\\vec{v}=(4.0\\,\\tfrac{\\text{km}}{\\text{hr}})\\hat{i}-(3.0\\,\\tfrac{\\text{km}}{\\text{hr}})\\hat{j}+(0.1\\,\\tfrac{\\text{km}}{\\text{hr}})\\hat{k}$$",
+        "$$-\\vec{v}=-(4.0\\,\\tfrac{\\text{km}}{\\text{hr}})\\hat{i}-(3.0\\,\\tfrac{\\text{km}}{\\text{hr}})\\hat{j}+(0.1\\,\\tfrac{\\text{km}}{\\text{hr}})\\hat{k}$$"
+    ]
+}

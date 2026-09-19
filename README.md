@@ -34,7 +34,7 @@ A separate project by the same author experimented with using large language mod
 ## Run locally
 
 ```sh
-git clone --recurse-submodules https://github.com/drhycheung/OATutor.git
+git clone https://github.com/drhycheung/OATutor.git
 cd OATutor
 npm install
 npm run start
@@ -104,6 +104,6 @@ This fork introduces the following modifications:
 
 - **Dark glassmorphism theme** across all components (custom `theme.js`, dark `index.css`, per-component style overrides)
 - **EdUHK branding**: site name, white EdUHK signature logo, favicon
-- **PSY2032 course content**: 39 lessons aligned to the EdUHK Statistical Methods in Psychology I syllabus, drawing on OpenStax Introductory Statistics
+- **PSY2032 course content**: 39 lessons aligned to the EdUHK Statistical Methods in Psychology I syllabus, drawing on OpenStax Introductory Statistics. Content lives in `src/content-sources/oatutor/` as regular tracked files — additional courses can be added by dropping in new `coursePlans.json` entries and content-pool directories.
 - **"Not logged in" indicator** styled for dark backgrounds (slate-300 text)
 - No changes to the BKT engine or content JSON schema

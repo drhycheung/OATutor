@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector19c-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "This is always a good sanity check",
+        "text": "The tiny deviation from $$1$$ is due to rounding the components to $$3$$ sig figs.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

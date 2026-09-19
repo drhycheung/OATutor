@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector19b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Divide each component by the magnitude",
+        "text": "The unit vector is dimensionless and has magnitude exactly $$1$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

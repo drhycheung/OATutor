@@ -1,0 +1,38 @@
+[
+    {
+        "id": "acd9137measure23a-h1",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "Larger"
+        ],
+        "dependencies": [],
+        "title": "Larger or Smaller?",
+        "text": "Is this value significantly larger or significantly smaller than a kilogram?",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "Larger",
+            "Smaller"
+        ]
+    },
+    {
+        "id": "acd9137measure23a-h2",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$479$$"
+        ],
+        "dependencies": [
+            "acd9137measure23a-h1"
+        ],
+        "title": "To Megagrams and Beyond",
+        "text": "How many megagrams is 4.79*$$10**{8}$$ g?",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

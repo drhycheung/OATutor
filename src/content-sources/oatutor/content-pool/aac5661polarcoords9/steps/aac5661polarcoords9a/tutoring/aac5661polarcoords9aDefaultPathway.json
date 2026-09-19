@@ -1,0 +1,24 @@
+[
+    {
+        "id": "aac5661polarcoords9a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Simplify the Expression",
+        "text": "Since $$1-cos^2\\left(\\theta\\right)=sin^2\\left(\\theta\\right)$$, the equation is $$r=3\\sqrt{sin^2\\left(\\theta\\right)}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "aac5661polarcoords9a-h2",
+        "type": "hint",
+        "dependencies": [
+            "aac5661polarcoords9a-h1"
+        ],
+        "title": "Check Symmetry with Substitution",
+        "text": "Replace theta with -theta. Squaring sin(theta) leaves the radicand unchanged.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

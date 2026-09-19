@@ -1,0 +1,41 @@
+[
+    {
+        "id": "af4dc22Lawcos14a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Law of Cosines",
+        "text": "Use the Law of Cosines: $$x^2={3.4}^2+{4.5}^2-2\\times3.4\\times4.5 cos\\left(42\\right)$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "af4dc22Lawcos14a-h2",
+        "type": "hint",
+        "dependencies": [
+            "af4dc22Lawcos14a-h1"
+        ],
+        "title": "Side",
+        "text": "Which side length are we solving for?",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "af4dc22Lawcos14a-h3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$0.74$$"
+        ],
+        "dependencies": [
+            "af4dc22Lawcos14a-h2"
+        ],
+        "title": "Angle value",
+        "text": "Find cos(42 degrees) to the nearest hundredth and substitute it into the Law of Cosines.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

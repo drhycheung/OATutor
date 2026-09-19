@@ -1,0 +1,35 @@
+[
+    {
+        "id": "a662caelawsin17a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Sum of angles in a triangle",
+        "text": "The angles in a triangle total $$180$$ degrees.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin17a-s1",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "$$180-37-21=122$$"
+        ],
+        "dependencies": [
+            "a662caelawsin17a-h1"
+        ],
+        "title": "Calculate $$A$$",
+        "text": "What is A if $$A+B+C=180$$ degrees?",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "$$180-37-21=122$$",
+            "$$180-37+21=164$$",
+            "$$180-21=159$$",
+            "$$37+21=58$$"
+        ]
+    }
+]

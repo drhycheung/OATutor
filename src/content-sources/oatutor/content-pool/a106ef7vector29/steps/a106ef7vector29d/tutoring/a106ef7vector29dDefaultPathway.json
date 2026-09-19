@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector29d-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Only Ay is nonzero in A",
+        "text": "j: $$-(AxCz-AzCx)=-((0)(2)-(0)(-2))=0$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

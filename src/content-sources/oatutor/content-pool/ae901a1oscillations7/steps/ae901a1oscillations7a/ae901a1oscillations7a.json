@@ -1,0 +1,12 @@
+{
+    "id": "ae901a1oscillations7a",
+    "stepAnswer": [
+        "$$6533$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the force constant of the spring (in $$\\tfrac{\\text{N}}{\\text{m}}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$6533$$"
+}

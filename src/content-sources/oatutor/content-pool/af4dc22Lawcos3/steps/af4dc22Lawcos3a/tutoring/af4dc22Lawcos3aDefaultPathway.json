@@ -1,0 +1,36 @@
+[
+    {
+        "id": "af4dc22Lawcos3a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Law of Cosines",
+        "text": "Use the Law of Sines to find beta, then use $$alpha=180-beta-gamma$$ and the Law of Sines to find side a.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "af4dc22Lawcos3a-h2",
+        "type": "hint",
+        "dependencies": [
+            "af4dc22Lawcos3a-h1"
+        ],
+        "title": "Unknown side",
+        "text": "The unknown side is a.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "af4dc22Lawcos3a-h3",
+        "type": "hint",
+        "dependencies": [
+            "af4dc22Lawcos3a-h2"
+        ],
+        "title": "Missing angle",
+        "text": "Find beta from $$\\fracsin^b\\left(\\beta\\right)}=\\fracsin^c\\left(\\gamma\\right)}$$, then find alpha.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

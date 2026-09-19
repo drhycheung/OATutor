@@ -1,0 +1,24 @@
+[
+    {
+        "id": "ab002b1wet3b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply W-E Theorem",
+        "text": "Final $$KE$$ is zero because the car stops, and friction opposes the motion, so $$W_{\\text{net}}=-Fd$$. $$That$$ $$gives$$ $$-Fd=0-KE_{i}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "ab002b1wet3b-h2",
+        "type": "hint",
+        "dependencies": [
+            "ab002b1wet3b-h1"
+        ],
+        "title": "Solve for $$d$$",
+        "text": "Rearranged, $$d=KE_{i}/F$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

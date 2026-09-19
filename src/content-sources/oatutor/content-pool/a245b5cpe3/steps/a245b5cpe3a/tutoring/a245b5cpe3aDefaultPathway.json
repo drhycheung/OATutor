@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5cpe3a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Identify the Formula",
+        "text": "$$U_{s}=\\tfrac{1}{2}kx**{2}$$, $$where$$ $$x$$ is the deformation from natural length.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cpe3a-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cpe3a-h1"
+        ],
+        "title": "Measure $$x$$ from the Natural Length",
+        "text": "$$x$$ is the compression measured from the spring's natural length.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

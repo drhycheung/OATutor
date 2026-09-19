@@ -1,0 +1,12 @@
+{
+    "id": "a245b5cce1a",
+    "stepAnswer": [
+        "$$14$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "A $$2\\, \\text{kg}$$ ball is dropped from rest at a height of $$10\\, \\text{m}$$ above the ground.",
+    "stepBody": "Find its speed just before it hits the ground (in $$\\tfrac{\\text{m}}{\\text{s}}\\$\\$)$$.",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$14$$"
+}

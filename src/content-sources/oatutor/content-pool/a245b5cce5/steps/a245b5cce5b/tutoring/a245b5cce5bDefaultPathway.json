@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5cce5b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Energy Conservation",
+        "text": "On a frictionless ramp all PE turns into KE: $$mgh=\\tfrac{1}{2}mv**{2}$$. $$Mass$$ $$cancels$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cce5b-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cce5b-h1"
+        ],
+        "title": "Solve for $$v$$",
+        "text": "$$v=\\sqrt{2gh}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

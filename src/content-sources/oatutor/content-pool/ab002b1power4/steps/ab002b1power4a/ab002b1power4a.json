@@ -1,0 +1,18 @@
+{
+    "id": "ab002b1power4a",
+    "stepAnswer": [
+        "$$2$$ hp"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "A motor outputs $$1492\\, \\text{W}$$ of power.",
+    "stepBody": "How many horsepower is this?",
+    "answerType": "string",
+    "variabilization": {},
+    "answerLatex": "$$2$$ hp",
+    "choices": [
+        "$$1$$ hp",
+        "$$2$$ hp",
+        "$$3$$ hp",
+        "$$4$$ hp"
+    ]
+}

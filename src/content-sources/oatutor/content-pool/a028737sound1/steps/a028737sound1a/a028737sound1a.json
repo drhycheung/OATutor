@@ -1,0 +1,12 @@
+{
+    "id": "a028737sound1a",
+    "stepAnswer": [
+        "$$4$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the maximum displacement (in $$\\text{nm}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$4$$"
+}

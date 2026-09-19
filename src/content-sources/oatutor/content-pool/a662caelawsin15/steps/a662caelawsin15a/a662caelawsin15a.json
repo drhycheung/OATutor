@@ -1,0 +1,12 @@
+{
+    "id": "a662caelawsin15a",
+    "stepAnswer": [
+        "$$94.0$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "Find angle C.",
+    "stepBody": "$$A=37$$ $$degrees, B=49$$ $$degrees, c=5$$",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$94.0$$"
+}

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5cce3a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Set Up Energy Conservation",
+        "text": "KE at launch equals PE at the peak: $$\\tfrac{1}{2}mv**{2}=mgh$$. $$Mass$$ $$cancels$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cce3a-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cce3a-h1"
+        ],
+        "title": "Solve for $$h$$",
+        "text": "$$h=v**{2}/(2g)$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

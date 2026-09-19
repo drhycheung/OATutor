@@ -18,9 +18,6 @@ jobs:
         with:
           persist-credentials: false
 
-      - name: Initialise content submodule (HTTPS, psy2032-only branch)
-        run: git submodule update --init --remote --recursive
-
       - name: Save original git author and git email
         run: |
           echo "git_email=$(git log --format='%ae' HEAD^!)" >> $GITHUB_ENV

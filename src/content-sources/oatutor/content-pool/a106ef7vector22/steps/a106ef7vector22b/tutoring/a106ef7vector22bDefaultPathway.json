@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector22b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Sum each axis across all seven legs",
+        "text": "$$y-components$$ sum to $$-6.57$$ km.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "id": "a662caelawsin17a",
+    "stepAnswer": [
+        "$$122$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "Find angle A when $$B=37$$ degrees and $$C=21$$ degrees.",
+    "stepBody": "$$B=37$$ $$degrees, C=21$$ $$degrees, b=23$$",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$122$$"
+}

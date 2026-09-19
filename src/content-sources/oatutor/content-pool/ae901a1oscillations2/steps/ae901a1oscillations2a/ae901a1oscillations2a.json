@@ -1,0 +1,12 @@
+{
+    "id": "ae901a1oscillations2a",
+    "stepAnswer": [
+        "$$12500$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the frequency of the flashes (in $$\\text{Hz}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$12500$$"
+}

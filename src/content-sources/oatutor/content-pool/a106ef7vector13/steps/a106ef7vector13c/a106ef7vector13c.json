@@ -1,0 +1,18 @@
+{
+    "id": "a106ef7vector13c",
+    "stepAnswer": [
+        "$$110.0\\degree$$"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Calculate the direction angle of $$\\vec{F}$$",
+    "stepBody": "Using \u03b8=arctan($$F_{y}/F_{x}$$) and applying the Q2 correction, what is the direction angle of $$\\vec{F}$$ measured counterclockwise from east (in degrees)?",
+    "answerType": "string",
+    "variabilization": {},
+    "answerLatex": "$$110.0\\degree$$",
+    "choices": [
+        "$$110.0\\degree$$",
+        "$$-70.0\\degree$$",
+        "$$70.0\\degree$$",
+        "$$250.0\\degree$$"
+    ]
+}

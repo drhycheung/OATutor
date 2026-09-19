@@ -1,0 +1,16 @@
+{
+    "id": "aac5661polarcoords25a",
+    "stepAnswer": [
+        "(3/2,pi/3),(3/2,5*pi/3)"
+    ],
+    "problemType": "MultipleChoice",
+    "stepTitle": "Identify Intersection Points",
+    "stepBody": "Which of the following are the points of intersection between r1 and r2?",
+    "answerType": "string",
+    "variabilization": {},
+    "choices": [
+        "(3/2,pi/3),(3/2,5*pi/3)",
+        "$$(2,0),(2,pi)$$",
+        "(1,pi/3),(1,5*pi/3)"
+    ]
+}

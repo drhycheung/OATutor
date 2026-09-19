@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5cped1a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Find KE",
+        "text": "Kinetic energy is $$E- \\cup (x)$$. $$When$$ $$E= \\cup (x)$$, $$KE=0$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cped1a-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cped1a-h1"
+        ],
+        "title": "Zero KE Meaning",
+        "text": "If $$KE=0$$ the speed is zero, so the particle momentarily stops and reverses direction.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

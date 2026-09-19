@@ -1,0 +1,99 @@
+[
+    {
+        "id": "a662caelawsin17b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Apply the Law of Sines",
+        "text": "Use the Law of Sines: $$\\frac{a}sin^$\\left(A\\righ=\\frac{b}sin^$\\left(B\\righ=\\frac{c}sin^$\\left(C\\righ$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin17b-s1",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "$$\\frac{c}sin^$\\left(C\\righ=\\frac{b}sin^$\\left(B\\righ$$"
+        ],
+        "dependencies": [
+            "a662caelawsin17b-h1"
+        ],
+        "title": "Set up the proportion for c",
+        "text": "Which ratio involving c uses the known side $$b$$?",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "$$\\frac{c}sin^$\\left(C\\righ=\\frac{b}sin^$\\left(B\\righ$$",
+            "$$\\frac{c}sin^$\\left(B\\righ=\\frac{b}sin^$\\left(C\\righ$$",
+            "$$\\frac{c}{C}=\\frac{b}{B}$$",
+            "$$\\frac{c}sin^$\\left(A\\righ=\\frac{b}sin^$\\left(B\\righ$$"
+        ]
+    },
+    {
+        "id": "a662caelawsin17b-h2",
+        "type": "hint",
+        "dependencies": [
+            "a662caelawsin17b-h1"
+        ],
+        "title": "Substitute known values",
+        "text": "Substitute $$B=37$$ degrees, $$C=21$$ degrees, and $$b=23$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin17b-s2",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "$$\\frac{c}sin^$\\left(21\\righ=\\frac{23}sin^$\\left(37\\righ$$"
+        ],
+        "dependencies": [
+            "a662caelawsin17b-h2"
+        ],
+        "title": "What is the equation after substitution?",
+        "text": "Choose the equation after substitution.",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "$$\\frac{c}sin^$\\left(21\\righ=\\frac{23}sin^$\\left(37\\righ$$",
+            "$$\\frac{c}sin^$\\left(37\\righ=\\frac{23}sin^$\\left(21\\righ$$",
+            "$$\\frac{c}{21}=\\frac{23}{37}$$",
+            "$$\\frac{c}sin^$\\left(21\\righ=\\frac{23}sin^$\\left(122\\righ$$"
+        ]
+    },
+    {
+        "id": "a662caelawsin17b-h3",
+        "type": "hint",
+        "dependencies": [
+            "a662caelawsin17b-h2"
+        ],
+        "title": "Solve for c",
+        "text": "Isolate $$c$$ and calculate its value, rounding to the nearest tenth.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin17b-s3",
+        "type": "scaffold",
+        "problemType": "TextBox",
+        "answerType": "arithmetic",
+        "hintAnswer": [
+            "$$13.7$$"
+        ],
+        "dependencies": [
+            "a662caelawsin17b-h3"
+        ],
+        "title": "Calculate c",
+        "text": "What is the value of $$c$$?",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

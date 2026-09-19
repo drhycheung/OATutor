@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector22a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Convert compass descriptions to standard angles",
+        "text": "N of W \u2192 90\u00b0+angle from north toward west. \"S of E\" \u2192 negative angle below east. \"S of W\" \u2192 180\u00b0+angle. \"E of N\" \u2192 90\u00b0-angle from east.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

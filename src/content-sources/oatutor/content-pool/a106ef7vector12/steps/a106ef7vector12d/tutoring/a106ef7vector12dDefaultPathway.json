@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector12d-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Add 180\u00b0 for second (or third) quadrant vectors",
+        "text": "arctan always returns an angle in (-90\u00b0, 90\u00b0), so it cannot distinguish Q1 from Q3, or Q2 from Q4.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

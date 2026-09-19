@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector23b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Divide the dot product by the product of magnitudes",
+        "text": "The negative cosine confirms the angle is obtuse (between 90\u00b0 and 180\u00b0).",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

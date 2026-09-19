@@ -1,0 +1,70 @@
+[
+    {
+        "id": "a662caelawsin11a-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Sum of angles in a triangle",
+        "text": "The angles in a triangle total $$180$$ degrees.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin11a-s1",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "$$\\alpha+\\beta+\\gamma=180$$"
+        ],
+        "dependencies": [
+            "a662caelawsin11a-h1"
+        ],
+        "title": "Formula for sum of angles",
+        "text": "What is the formula for the sum of angles in a triangle?",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "$$\\alpha+\\beta+\\gamma=180$$",
+            "$$\\alpha+\\beta+\\gamma=360$$",
+            "$$\\alpha+\\beta=180$$",
+            "$${\\alpha}^2+{\\beta}^2={\\gamma}^2$$"
+        ]
+    },
+    {
+        "id": "a662caelawsin11a-h2",
+        "type": "hint",
+        "dependencies": [
+            "a662caelawsin11a-h1"
+        ],
+        "title": "Substitute known values",
+        "text": "Substitute $$alpha=35$$ degrees and $$gamma=73$$ degrees.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a662caelawsin11a-s2",
+        "type": "scaffold",
+        "problemType": "MultipleChoice",
+        "answerType": "string",
+        "hintAnswer": [
+            "$$35+\\beta+73=180$$"
+        ],
+        "dependencies": [
+            "a662caelawsin11a-h2"
+        ],
+        "title": "Equation with known angles",
+        "text": "What is the equation after substituting the known angles?",
+        "variabilization": {},
+        "oer": "",
+        "license": "",
+        "choices": [
+            "$$35+\\beta+73=180$$",
+            "$$35+\\beta+73=360$$",
+            "$$35+73=beta$$",
+            "$$180-35-73=beta$$"
+        ]
+    }
+]

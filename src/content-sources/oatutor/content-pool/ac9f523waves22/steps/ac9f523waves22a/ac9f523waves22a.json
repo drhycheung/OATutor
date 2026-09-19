@@ -1,0 +1,12 @@
+{
+    "id": "ac9f523waves22a",
+    "stepAnswer": [
+        "$$6.28$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the angular frequency of the individual waves (in $$\\tfrac{\\text{rad}}{\\text{s}}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$6.28$$"
+}

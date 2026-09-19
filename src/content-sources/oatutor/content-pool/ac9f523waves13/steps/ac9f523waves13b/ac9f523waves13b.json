@@ -1,0 +1,12 @@
+{
+    "id": "ac9f523waves13b",
+    "stepAnswer": [
+        "$$0.733$$"
+    ],
+    "problemType": "TextBox",
+    "stepTitle": "What is the wavelength of the wave (in $$\\text{m}\\$\\$)$$?",
+    "stepBody": "",
+    "answerType": "arithmetic",
+    "variabilization": {},
+    "answerLatex": "$$0.733$$"
+}

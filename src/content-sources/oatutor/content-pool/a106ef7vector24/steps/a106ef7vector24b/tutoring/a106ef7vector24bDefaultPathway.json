@@ -1,0 +1,12 @@
+[
+    {
+        "id": "a106ef7vector24b-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Negative dot product means obtuse angle",
+        "text": "Any negative dot product guarantees \u03b8 > 90\u00b0.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": "a245b5cnc2c-h1",
+        "type": "hint",
+        "dependencies": [],
+        "title": "Energy Balance",
+        "text": "Friction work removes all the KE: $$fd=KE$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    },
+    {
+        "id": "a245b5cnc2c-h2",
+        "type": "hint",
+        "dependencies": [
+            "a245b5cnc2c-h1"
+        ],
+        "title": "Solve for $$d$$",
+        "text": "$$d=\\frac{KE}{f}$$.",
+        "variabilization": {},
+        "oer": "",
+        "license": ""
+    }
+]
