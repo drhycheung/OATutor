@@ -37,7 +37,6 @@ import GlobalErrorBoundary from "./components/GlobalErrorBoundary";
 import { IS_STAGING_OR_DEVELOPMENT } from "./util/getBuildType";
 import TabFocusTrackerWrapper from "./components/TabFocusTrackerWrapper";
 import ViewAllProblems from "./components/problem-layout/ViewAllProblems";
-import MyProgress from "./components/problem-layout/MyProgress";
 import { ResponsiveProvider } from "./util/ResponsiveContext";
 
 // ### BEGIN CUSTOMIZABLE IMPORTS ###
@@ -322,7 +321,7 @@ class App extends React.Component {
                                         )}
                                     />
                                     <Route
-                                        path="/courses/:courseNum"
+                                        path="/courses/:courseCode"
                                         render={(props) => (
                                             <Platform
                                                 key={Date.now()}
@@ -335,21 +334,16 @@ class App extends React.Component {
                                                 removeProgress={
                                                     this.removeProgress
                                                 }
-                                                courseNum={
-                                                    props.match.params.courseNum
+                                                courseCode={
+                                                    props.match.params.courseCode
                                                 }
                                                 {...props}
                                             />
                                         )}
                                     />
                                     <Route
-                                      exact
-                                      path="/progress"
-                                      component={MyProgress}
-                                    />
-                                    <Route
-                                      exact
-                                      path="/lessons/:lessonID/problems"
+                                        exact
+                                        path="/lessons/:lessonID/problems"
                                         component={ViewAllProblems}
                                        />
                                     <Route

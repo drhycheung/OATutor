@@ -107,3 +107,12 @@ This fork introduces the following modifications:
 - **PSY2032 course content**: 39 lessons aligned to the EdUHK Statistical Methods in Psychology I syllabus, drawing on OpenStax Introductory Statistics. Content lives in `src/content-sources/oatutor/` as regular tracked files — additional courses can be added by dropping in new `coursePlans.json` entries and content-pool directories.
 - **"Not logged in" indicator** styled for dark backgrounds (slate-300 text)
 - No changes to the BKT engine or content JSON schema
+
+---
+
+## Roadmap
+
+- [ ] **Adjust questions and verify answers** based on PSY2032 course materials — review and align all problem sets with the EdUHK syllabus and textbook readings
+- [ ] **Fine-tune the interface** — polish responsive layout, spacing, and interaction details across desktop and mobile
+- [ ] **Build login system** for EdUHK account authentication (SSO / OAuth) and persist student progress in a database instead of `localStorage`
+- [ ] **Incorporate AI chatbot** for Socratic dialogue and discussion (contingent on availability of AI tokens)

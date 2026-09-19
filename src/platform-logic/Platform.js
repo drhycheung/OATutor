@@ -175,8 +175,9 @@ class Platform extends React.Component {
       const lesson = findLessonById(this.props.lessonID) || findMetaLessonById(this.props.lessonID);
       this.selectLesson(lesson).then((_) => {});
       this.props.enterCourse?.(lesson?.courseName, this._resolveLessonLanguage(lesson));
-    } else if (this.props.courseNum != null) {
-      this.selectCourse(coursePlans[parseInt(this.props.courseNum)]);
+    } else if (this.props.courseCode != null) {
+      const course = coursePlans.find((c) => c.courseCode === this.props.courseCode);
+      if (course) this.selectCourse(course);
     }
     this.onComponentUpdate(null, null, null);
   }
@@ -197,13 +198,13 @@ class Platform extends React.Component {
 
   componentDidUpdate(prevProps, prevState, snapshot) {
       const lessonIdChanged = this.props.lessonID !== prevProps.lessonID && this.props.lessonID != null;
-      const courseNumChanged = this.props.courseNum !== prevProps.courseNum && this.props.courseNum != null;
+      const courseCodeChanged = this.props.courseCode !== prevProps.courseCode && this.props.courseCode != null;
       const movedIntoLesson = !Boolean(prevProps.lessonID) && Boolean(this.props.lessonID);
       const leftLesson = Boolean(prevProps.lessonID) && !Boolean(this.props.lessonID);
-      const leftCourseSelection = Boolean(prevProps.courseNum != null) && this.props.courseNum == null && this.props.lessonID == null;
+      const leftCourseSelection = Boolean(prevProps.courseCode != null) && this.props.courseCode == null && this.props.lessonID == null;
 
-      if (courseNumChanged) {
-        const course = coursePlans[parseInt(this.props.courseNum, 10)];
+      if (courseCodeChanged) {
+        const course = coursePlans.find((c) => c.courseCode === this.props.courseCode);
         if (course) {
           this.selectCourse(course);
           this.props.enterCourse?.(course.courseName, course.language || null);
@@ -259,15 +260,16 @@ class Platform extends React.Component {
   handleHierarchyBack = () => {
     if (this.props.lessonID) {
       const lesson = findLessonById(this.props.lessonID);
-      const courseIndex = _coursePlansNoEditor.findIndex(
-        (course) => course.courseName === lesson?.courseName
+      const course = _coursePlansNoEditor.find(
+        (c) => c.courseName === lesson?.courseName
       );
+      const courseCode = course?.courseCode;
 
-      this.props.history.push(courseIndex >= 0 ? `/courses/${courseIndex}` : "/");
+      this.props.history.push(courseCode ? `/courses/${courseCode}` : "/");
       return;
     }
 
-    if (this.props.courseNum != null) {
+    if (this.props.courseCode != null) {
       this.props.history.push("/");
     }
   };
@@ -1671,7 +1673,7 @@ class Platform extends React.Component {
                 selectLesson={this.selectLesson}
                 removeProgress={this.props.removeProgress}
                 history={this.props.history}
-                courseNum={this.props.courseNum}
+                 courseCode={this.props.courseCode}
               />
             ) : (
               ""
