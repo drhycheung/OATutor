@@ -19,7 +19,33 @@ class GoogleAuthButton extends React.Component {
 
         if (!authUser) {
             return (
-                <div style={{ display: "flex", flexDirection: "column", alignItems: compact ? "flex-end" : "flex-start" }}>
+                <div
+                    style={{
+                        display: "flex",
+                        flexDirection: "row",
+                        alignItems: "center",
+                        justifyContent: compact ? "flex-end" : "flex-start",
+                        flexWrap: "nowrap",
+                        gap: 6,
+                        maxWidth: compact ? 110 : 420,
+                        minHeight: 32,
+                    }}
+                >
+                    {!compact && (
+                        <span
+                            style={{
+                                fontSize: 11,
+                                lineHeight: 1.25,
+                                color: "#cbd5e1",
+                                whiteSpace: "normal",
+                                maxWidth: 210,
+                                flexShrink: 0,
+                                textAlign: "right",
+                            }}
+                        >
+                            Progress saved locally.<br />Log in to sync across sessions.
+                        </span>
+                    )}
                     <Button
                         variant="outlined"
                         size="small"
@@ -30,24 +56,11 @@ class GoogleAuthButton extends React.Component {
                             color: "#e2e8f0",
                             fontWeight: 600,
                             whiteSpace: "nowrap",
+                            minWidth: compact ? 86 : 170,
                         }}
                     >
                         {compact ? "Log in" : "Log in with Google"}
                     </Button>
-                    {!compact && (
-                        <div
-                            style={{
-                                marginTop: 6,
-                                maxWidth: 260,
-                                fontSize: 12,
-                                lineHeight: 1.3,
-                                color: "#94a3b8",
-                                textAlign: "left",
-                            }}
-                        >
-                            If you do not log in, your progress is saved only on this device and may be lost when you close your browser.
-                        </div>
-                    )}
                 </div>
             );
         }

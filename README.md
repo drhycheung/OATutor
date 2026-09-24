@@ -117,4 +117,5 @@ This fork introduces the following modifications:
 - [ ] **Adjust questions and verify answers** based on PSY2032 course materials — review and align all problem sets with the EdUHK syllabus and textbook readings
 - [ ] **Fine-tune the interface** — polish responsive layout, spacing, and interaction details across desktop and mobile
 - [x] **Build login system** for EdUHK account authentication (SSO / OAuth) and persist student progress in a database instead of `localStorage` — implemented via Google sign-in (Firebase Auth) with Firestore progress sync; port instructions in [FIREBASE_SETUP.md](./FIREBASE_SETUP.md)
+- [ ] **Store the login email** in the Firestore user profile later, if needed, so staff can identify users more easily while keeping owner-only access rules
 - [ ] **Incorporate AI chatbot** for Socratic dialogue and discussion (contingent on availability of AI tokens)

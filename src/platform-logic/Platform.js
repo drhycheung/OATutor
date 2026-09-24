@@ -1131,8 +1131,6 @@ class Platform extends React.Component {
     const drawerWidth = 340;
     const isMobile = isMobileWidth(width);
 
-    const googleUser = this.context.authUser || null;
-
     const tocCourseName = this.state.selectedCourse?.courseName || findLessonById(this.props.lessonID)?.courseName;
     const currentLesson = findLessonById(this.props.lessonID);
     const mobileCourseTitle =
@@ -1263,8 +1261,8 @@ class Platform extends React.Component {
                       {mobileCourseTitle}
                     </div>
                   )}
-                  <div style={{ display: "flex", alignItems: "center", marginLeft: "auto", flexShrink: 0 }}>
-                    <div style={{ marginRight: 4 }}>
+                  <div style={{ display: "flex", alignItems: "center", marginLeft: "auto", flexShrink: 0, gap: 8, paddingTop: 4, overflow: "visible" }}>
+                    <div style={{ marginRight: 4, paddingTop: 2, overflow: "visible" }}>
                       <GoogleAuthButton compact />
                     </div>
                     <IconButton aria-label="about" title={`About ${SITE_NAME}`} onClick={this.togglePopup} size="small">
@@ -1274,9 +1272,6 @@ class Platform extends React.Component {
                       <IconButton aria-label="report problem" onClick={this.toggleFeedback} title={"Report Problem"} size="small">
                         <FeedbackOutlinedIcon htmlColor={"#344054"} style={{ fontSize: 26 }} />
                       </IconButton>
-                    )}
-                    {googleUser && (
-                      <div style={{ fontWeight: 600 }}>{googleUser.full_name}</div>
                     )}
                   </div>
                   <Popup isOpen={showPopup} onClose={this.togglePopup}>
@@ -1290,15 +1285,7 @@ class Platform extends React.Component {
                   </Grid>
                   <Grid item xs={5} key={2}></Grid>
                   <Grid xs={4} item key={3}>
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "flex-end",
-                        alignItems: "center",
-                        gap: "9px",
-                        color: "#cbd5e1",
-                      }}
-                    >
+                    <div style={{ display: "flex", justifyContent: "flex-end", alignItems: "center", gap: "9px", color: "#cbd5e1", paddingTop: 4, overflow: "visible" }}>
                       <GoogleAuthButton />
                     </div>
                   </Grid>

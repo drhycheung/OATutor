@@ -180,6 +180,12 @@ class BrowserStorage {
         }
         if (Object.keys(updates).length > 0) {
             await writeRemoteProgress(owner, updates);
+            // Also write back locally under the owner-scoped keys so the
+            // current session picks up the migrated progress without a refresh.
+            for (const [logicalKey, value] of Object.entries(updates)) {
+                const storageKey = this.getStorageKey(logicalKey);
+                await localforage.setItem(storageKey, value).catch(() => {});
+            }
         }
     }
 }
