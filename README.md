@@ -29,6 +29,8 @@ A separate project by the same author experimented with using large language mod
 | **No backend required** | Deployable to GitHub Pages as a fully static site; Firebase logging optional |
 | **LMS integration (optional)** | LTI middleware for Canvas integration available via the upstream OATutor backend |
 
+![Course home with progress](docs/course-home.png)
+
 ---
 
 ## Run locally
