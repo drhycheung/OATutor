@@ -13,6 +13,8 @@ import NotFound from "@components/NotFound.js";
 
 import {
     DO_FOCUS_TRACKING,
+    ENABLE_GOOGLE_AUTH,
+    ENABLE_REMOTE_PROGRESS,
     PROGRESS_STORAGE_KEY,
     SITE_VERSION,
     ThemeContext,
@@ -47,6 +49,13 @@ import experimentalBKTParams from "./content-sources/oatutor/bkt-params/experime
 import { heuristic as defaultHeuristic } from "./models/BKT/problem-select-heuristics/defaultHeuristic.js";
 import { heuristic as experimentalHeuristic } from "./models/BKT/problem-select-heuristics/experimentalHeuristic.js";
 import BrowserStorage from "./util/browserStorage";
+import { initializeFirebaseApp } from "./util/firebase";
+import {
+    signInWithGoogle as googleSignIn,
+    signOutGoogle as googleSignOut,
+    subscribeAuth,
+} from "./util/googleAuth";
+import { clearRemoteProgress } from "./util/remoteProgress";
 import tableOfContents from "@components/tableOfContents";
 // ### END CUSTOMIZABLE IMPORTS ###
 
@@ -79,6 +88,10 @@ if (!AB_TEST_MODE) {
     };
 }
 
+// Synchronous cache of the latest auth state, so the initial render (before
+// the auth observer fires) and the header can agree without mutating state.
+let lastAuthContext = { authReady: false, authUser: null };
+
 class App extends React.Component {
     constructor(props) {
         super(props);
@@ -97,6 +110,7 @@ class App extends React.Component {
 
         this.state = {
             additionalContext: {},
+            authContext: lastAuthContext,
         };
 
         if (IS_STAGING_OR_DEVELOPMENT) {
@@ -181,15 +195,57 @@ class App extends React.Component {
         this.browserStorage = new BrowserStorage(this);
 
         this.saveProgress = this.saveProgress.bind(this);
+
+        if (ENABLE_GOOGLE_AUTH) {
+            initializeFirebaseApp(config);
+            this.unsubscribeAuth = subscribeAuth(this.handleAuthStateChanged);
+        }
     }
 
     componentDidMount() {
         this.mounted = true;
+        if (lastAuthContext.authReady) {
+            this.setState({ authContext: lastAuthContext });
+        }
     }
 
     componentWillUnmount() {
         this.mounted = false;
+        if (this.unsubscribeAuth) {
+            this.unsubscribeAuth();
+        }
     }
+
+    handleAuthStateChanged = async (authUser) => {
+        lastAuthContext = { authReady: true, authUser };
+        if (this.mounted) {
+            this.setState({ authContext: lastAuthContext });
+        }
+
+        if (authUser && ENABLE_REMOTE_PROGRESS) {
+            await this.browserStorage.ensureRemoteSync(authUser.user_id);
+            await this.loadBktProgress();
+        }
+    };
+
+    signInWithGoogle = async () => {
+        try {
+            await googleSignIn();
+        } catch (err) {
+            if (err && err.code !== "auth/popup-closed-by-user") {
+                console.warn("Google sign-in failed", err);
+                toast.error("Google sign-in failed. Please try again.");
+            }
+        }
+    };
+
+    signOut = async () => {
+        try {
+            await googleSignOut();
+        } catch (err) {
+            console.warn("Google sign-out failed", err);
+        }
+    };
 
     getTreatment = () => {
         return this.userID % 2;
@@ -212,6 +268,7 @@ class App extends React.Component {
         await Promise.allSettled(
             lessonStorageKeys.map(async (key) => await removeByKey(key))
         );
+        await clearRemoteProgress(this.browserStorage.getRemoteOwner());
         this.bktParams = this.getTreatmentObject(treatmentMapping.bktParams);
         window.location.reload();
     };
@@ -293,6 +350,10 @@ class App extends React.Component {
                         problemIDs: null,
                         ...this.state.additionalContext,
                         browserStorage: this.browserStorage,
+                        authReady: this.state.authContext.authReady,
+                        authUser: this.state.authContext.authUser,
+                        signInWithGoogle: this.signInWithGoogle,
+                        signOut: this.signOut,
                     }}
                 >
                 <LocalizationProvider>

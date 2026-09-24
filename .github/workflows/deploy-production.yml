@@ -33,7 +33,17 @@ jobs:
       - name: Create placeholder Firebase config
         run: |
           cat > src/config/firebaseConfig.js << 'EOF'
-          export default null;
+          // Placeholder config overwritten locally by REACT_APP_FIREBASE_CONFIG.
+          const firebaseConfig = {
+            apiKey: "[apikey]",
+            authDomain: "[projId].firebaseapp.com",
+            projectId: "[projId]",
+            storageBucket: "[projId].appspot.com",
+            messagingSenderId: "[senderId]",
+            appId: "[appId]",
+          };
+
+          export { firebaseConfig as default };
           EOF
 
       - name: Run build
@@ -42,6 +52,9 @@ jobs:
           CI: false
           REACT_APP_BUILD_TYPE: "production"
           REACT_APP_COMMIT_HASH: ${{ github.sha }}
+          REACT_APP_FIREBASE_CONFIG: ${{ secrets.FIREBASE_CONFIG }}
+          REACT_APP_ENABLE_GOOGLE_AUTH: "true"
+          REACT_APP_ENABLE_REMOTE_PROGRESS: "true"
 
       - name: Deploy to gh-pages
         run: |

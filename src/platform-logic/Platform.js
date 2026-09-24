@@ -27,7 +27,6 @@ import {
 import to from "await-to-js";
 import { toast } from "react-toastify";
 import ToastID from "../util/toastIds";
-import { getStudentDisplayName } from "../util/getStudentDisplayName";
 import BrandLogoNav from "@components/BrandLogoNav";
 import { cleanArray } from "../util/cleanObject";
 import ErrorBoundary from "@components/ErrorBoundary";
@@ -38,7 +37,6 @@ import { LocalizationConsumer } from "../util/LocalizationContext.js";
 
 import confetti from "canvas-confetti";
 
-import userIcon from "../assets/UserThumb.svg";
 import IconButton from "@material-ui/core/IconButton";
 import HelpOutlineOutlinedIcon from "@material-ui/icons/HelpOutlineOutlined";
 import FeedbackOutlinedIcon from "@material-ui/icons/FeedbackOutlined";
@@ -52,6 +50,8 @@ import { chooseVariables } from "../platform-logic/renderText.js";
 import Button from "@material-ui/core/Button";
 
 import ToCButton from "../assets/layoutLeft.svg";
+
+import GoogleAuthButton from "@components/GoogleAuthButton";
 
 import { withStyles } from "@material-ui/core/styles";
 import styles from "../components/problem-layout/common-styles.js";
@@ -1131,11 +1131,7 @@ class Platform extends React.Component {
     const drawerWidth = 340;
     const isMobile = isMobileWidth(width);
 
-    this.studentNameDisplay = getStudentDisplayName(
-      this.context,
-      translate("platform.NotLoggedIn"),
-      translate("platform.LoggedIn")
-    );
+    const googleUser = this.context.authUser || null;
 
     const tocCourseName = this.state.selectedCourse?.courseName || findLessonById(this.props.lessonID)?.courseName;
     const currentLesson = findLessonById(this.props.lessonID);
@@ -1268,6 +1264,9 @@ class Platform extends React.Component {
                     </div>
                   )}
                   <div style={{ display: "flex", alignItems: "center", marginLeft: "auto", flexShrink: 0 }}>
+                    <div style={{ marginRight: 4 }}>
+                      <GoogleAuthButton compact />
+                    </div>
                     <IconButton aria-label="about" title={`About ${SITE_NAME}`} onClick={this.togglePopup} size="small">
                       <HelpOutlineOutlinedIcon htmlColor={"#344054"} style={{ fontSize: 28 }} />
                     </IconButton>
@@ -1276,7 +1275,9 @@ class Platform extends React.Component {
                         <FeedbackOutlinedIcon htmlColor={"#344054"} style={{ fontSize: 26 }} />
                       </IconButton>
                     )}
-                    <img src={userIcon} alt="User Icon" style={{ width: 28, height: 28, marginLeft: 4 }} />
+                    {googleUser && (
+                      <div style={{ fontWeight: 600 }}>{googleUser.full_name}</div>
+                    )}
                   </div>
                   <Popup isOpen={showPopup} onClose={this.togglePopup}>
                     <About />
@@ -1298,8 +1299,7 @@ class Platform extends React.Component {
                         color: "#cbd5e1",
                       }}
                     >
-                      <img src={userIcon} alt="User Icon" />
-                      <div style={{ fontWeight: 600 }}>{this.studentNameDisplay}</div>
+                      <GoogleAuthButton />
                     </div>
                   </Grid>
                 </Grid>

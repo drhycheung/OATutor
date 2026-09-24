@@ -42,6 +42,24 @@ const SHOW_COPYRIGHT = false;
 const ENABLE_FIREBASE = false;
 
 /**
+ * If true, enable Google Sign-In (Firebase Auth). Also initialises the shared
+ * Firebase app so Firestore progress persistence can use it. Isolated from
+ * ENABLE_FIREBASE: turning this on never enables event logging.
+ * @type {boolean}
+ */
+const ENABLE_GOOGLE_AUTH =
+    process.env.REACT_APP_ENABLE_GOOGLE_AUTH === "true";
+
+/**
+ * If true, mirror user progress (BKT mastery + completed problems) to a
+ * Firestore document keyed by the signed-in user's UID, and restore it on
+ * sign-in. Requires a real firebaseConfig (env or file).
+ * @type {boolean}
+ */
+const ENABLE_REMOTE_PROGRESS =
+    process.env.REACT_APP_ENABLE_REMOTE_PROGRESS === "true";
+
+/**
  * If ENABLE_FIREBASE, indicates whether the site should use Firebase to store, process, and analyze general user
  * interactions.
  * @type {boolean}
@@ -159,6 +177,8 @@ export {
     ThemeContext,
     SITE_VERSION,
     ENABLE_FIREBASE,
+    ENABLE_GOOGLE_AUTH,
+    ENABLE_REMOTE_PROGRESS,
     DO_LOG_DATA,
     DO_LOG_MOUSE_DATA,
     AB_TEST_MODE,

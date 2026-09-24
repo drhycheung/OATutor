@@ -22,7 +22,7 @@ A separate project by the same author experimented with using large language mod
 |---|---|
 | **Adaptive item selection** | Bayesian Knowledge Tracing (BKT) estimates per-skill mastery and serves problems targeting the weakest skills first |
 | **Hint & scaffold system** | Multi-level hints and interactive scaffolds per problem step; bottom-out hints available when configured |
-| **Progress tracking** | Per-lesson and per-skill mastery visualisation; progress persisted in `localStorage` |
+| **Progress tracking** | Per-lesson and per-skill mastery visualisation; progress persisted locally (localforage/IndexedDB) and optionally synced to Firestore when signed in with Google |
 | **Dark glassmorphism UI** | Custom dark theme with glass-effect surfaces, replacing the original light interface |
 | **EdUHK branding** | White EdUHK signature logo, course-specific landing page, favicon |
 | **Accessibility** | Section 508 / WCAG compliance inherited from upstream OATutor |
@@ -56,8 +56,9 @@ npx serve -s build
 The `deploy-production.yml` GitHub Action builds and deploys on every push to `main`. The static bundle is served from the `gh-pages` branch.
 
 1. Set `homepage` in `package.json` to your Pages URL, e.g. `https://<your-username>.github.io/<repo-name>`.
-2. Push to `main` — the action builds and pushes to `gh-pages` automatically.
-3. In **Settings → Pages**, set source to the `gh-pages` branch, root directory.
+2. If you want Google login + progress sync, add the `FIREBASE_CONFIG` repository secret — see [FIREBASE_SETUP.md](./FIREBASE_SETUP.md).
+3. Push to `main` — the action builds and pushes to `gh-pages` automatically.
+4. In **Settings → Pages**, set source to the `gh-pages` branch, root directory.
 
 ---
 
@@ -106,6 +107,7 @@ This fork introduces the following modifications:
 - **EdUHK branding**: site name, white EdUHK signature logo, favicon
 - **PSY2032 course content**: 39 lessons aligned to the EdUHK Statistical Methods in Psychology I syllabus, drawing on OpenStax Introductory Statistics. Content lives in `src/content-sources/oatutor/` as regular tracked files — additional courses can be added by dropping in new `coursePlans.json` entries and content-pool directories.
 - **"Not logged in" indicator** styled for dark backgrounds (slate-300 text)
+- **Google login + cross-device progress sync** (optional): signs in via Firebase Auth and mirrors/restores progress to a Firestore `users/<uid>` document. Owner-only security rules; falls back to local-only when no Firebase config is present. See [FIREBASE_SETUP.md](./FIREBASE_SETUP.md) to point it at your own Firebase project.
 - No changes to the BKT engine or content JSON schema
 
 ---
@@ -114,5 +116,5 @@ This fork introduces the following modifications:
 
 - [ ] **Adjust questions and verify answers** based on PSY2032 course materials — review and align all problem sets with the EdUHK syllabus and textbook readings
 - [ ] **Fine-tune the interface** — polish responsive layout, spacing, and interaction details across desktop and mobile
-- [ ] **Build login system** for EdUHK account authentication (SSO / OAuth) and persist student progress in a database instead of `localStorage`
+- [x] **Build login system** for EdUHK account authentication (SSO / OAuth) and persist student progress in a database instead of `localStorage` — implemented via Google sign-in (Firebase Auth) with Firestore progress sync; port instructions in [FIREBASE_SETUP.md](./FIREBASE_SETUP.md)
 - [ ] **Incorporate AI chatbot** for Socratic dialogue and discussion (contingent on availability of AI tokens)
